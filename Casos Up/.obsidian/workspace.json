@@ -11,10 +11,14 @@
             "id": "572841156bef82a8",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Visualização em gráfico"
+              "type": "markdown",
+              "state": {
+                "file": "NOTA FISCAL.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "NOTA FISCAL"
             }
           }
         ]
@@ -190,13 +194,13 @@
   },
   "active": "572841156bef82a8",
   "lastOpenFiles": [
+    "AO INICIAR.md",
     "PRODUTOS.md",
     "NATUREZA DE OPERAÇÃO.md",
     "TIPO DOCUMENTO.md",
     "NOTA FISCAL.md",
     "ERROS.md",
     "CASOS UP.md",
-    "AO INICIAR.md",
     "Fotos Resolução Produtos/Erro de Conexão ao abrir o Sistema.png",
     "Sem título.canvas",
     "Sem título",
