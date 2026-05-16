@@ -10,3 +10,4 @@ SOLUÇÃO:
 * Na configuração do pedido de venda, marcar a opção de desconto desejado
 * ![[enviar desconto NF.png]]
 -------------------------------------------------------------------------
+Zerar Estoque 
