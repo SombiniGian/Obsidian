@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "52b029e88e4815e3",
+        "id": "6c4ed1d72898f141",
         "type": "tabs",
         "children": [
           {
-            "id": "9df190c43c73ef43",
+            "id": "2f39c27605e04b4a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Sem título.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nova aba"
+              "title": "Sem título"
             }
           }
         ]
@@ -191,13 +195,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "9df190c43c73ef43",
+  "active": "2f39c27605e04b4a",
   "lastOpenFiles": [
-    "Modelo de Template/Template de Caso.md",
-    "Sem título.md",
-    "Projeto1/ERROS.md",
     "Projeto1/AO INICIAR.md",
     "Projeto1/CASOS UP.md",
+    "Sem título.md",
+    "Modelo de Template/Template de Caso.md",
+    "Projeto1/ERROS.md",
     "Modelo de Template",
     "Base de Conhecimentos/Configurações Técnicas",
     "Base de Conhecimentos/Estoque e Cadastros",
