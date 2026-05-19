@@ -4,39 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "a44842a3ca72bed1",
+        "id": "17c64feba0d6ee87",
         "type": "tabs",
         "children": [
           {
-            "id": "0ae8218e34fb7e15",
+            "id": "e11a1ed0dc171484",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Código UP Sistemas.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Código UP Sistemas"
-            }
-          },
-          {
-            "id": "131355c046ea641e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Código UP Sistemas.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Código UP Sistemas"
+              "title": "Nova aba"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 205.5
+    "width": 304.5
   },
   "right": {
     "id": "b41576a2e1357bd4",
@@ -210,15 +191,25 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "131355c046ea641e",
+  "active": "9730c6a4bbba318a",
   "lastOpenFiles": [
-    "image2.md",
-    "Projeto1/Fotos Resolução Produtos/ACERTO_INVENTARIO.png",
-    "Código UP Sistemas.md",
-    "Sem título.md",
-    "images/image1.png",
+    "images/image2.png",
     "images/image3.png",
+    "image3 1.png",
+    "Código UP Sistemas.md",
+    "Projeto1/Fotos Resolução Produtos/image3.png",
+    "Projeto1/Fotos Resolução Produtos/Erro de Conexão ao abrir o Sistema.png",
+    "Projeto1/Fotos Resolução Produtos/enviar desconto NF.png",
+    "Projeto1/Fotos Resolução Produtos/CAMINHO_CERTIFICADO.png",
+    "Projeto1/Fotos Resolução Produtos/ACERTO_INVENTARIO.png",
+    "Projeto1/NOTA FISCAL.md",
+    "Projeto1/NATUREZA DE OPERAÇÃO.md",
+    "Projeto1/IMPRESSÃO.md",
     "Projeto1/AO INICIAR.md",
+    "images/image1.png",
+    "image3.md",
+    "image2.md",
+    "Sem título.md",
     "Projeto1/CASOS UP.md",
     "Modelo de Template/Template de Caso.md",
     "Projeto1/ERROS.md",
@@ -231,15 +222,9 @@
     "Painel e Indices",
     "Projeto1",
     "Projeto1/PRODUTOS.md",
-    "Projeto1/NOTA FISCAL.md",
     "SYLVIO.md",
     "Sem título.canvas",
-    "Projeto1/Fotos Resolução Produtos/Erro de Conexão ao abrir o Sistema.png",
-    "Projeto1/Fotos Resolução Produtos/enviar desconto NF.png",
-    "Projeto1/IMPRESSÃO.md",
-    "Projeto1/CAMINHO_CERTIFICADO.png",
     "THALES.md",
-    "Projeto1/NATUREZA DE OPERAÇÃO.md",
     "Projeto1/TIPO DOCUMENTO.md",
     "Sem título 1.md",
     "Projeto1/Fotos Resolução Produtos",
