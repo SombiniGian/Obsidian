@@ -44,9 +44,19 @@
               "icon": "lucide-git-fork",
               "title": "Visualização em gráfico"
             }
+          },
+          {
+            "id": "075a5cbc90de5124",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Visualização em gráfico"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -219,8 +229,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0a7b86e2859f2906",
+  "active": "075a5cbc90de5124",
   "lastOpenFiles": [
+    "SYLVIO.md",
     "Sem título.canvas",
     "NOTA FISCAL.md",
     "CASOS UP.md",
