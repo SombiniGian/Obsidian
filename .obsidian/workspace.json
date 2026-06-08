@@ -11,13 +11,10 @@
             "id": "203a6fec733d475b",
             "type": "leaf",
             "state": {
-              "type": "bases",
-              "state": {
-                "file": "Sem título.base",
-                "viewName": "Tabela"
-              },
-              "icon": "lucide-table",
-              "title": "Sem título"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Visualização em gráfico"
             }
           },
           {
@@ -196,8 +193,9 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "e8c61d403f72b663",
+  "active": "203a6fec733d475b",
   "lastOpenFiles": [
+    "Sem título.base",
     "Casos Up/ConhecimentosEntrada/Código UP Sistemas.md",
     "Casos Up/ConhecimentosEntrada/Módulo 1 Arquitetura e Engenharia do Cadastro de Pessoas.md",
     "Casos Up/Projeto1/erro.md",
@@ -226,7 +224,6 @@
     "Casos Up/ConhecimentosEntrada/Módulo 19 Notas Fiscais Emitidas e Regras de Contingência.md",
     "Casos Up/ConhecimentosEntrada/Módulo 18 Gestão de Transporte (CT-e, MDF-e) e Guias (GNRE).md",
     "Casos Up/ConhecimentosEntrada/Módulo 17 Configurações Globais Fiscais e Documentos Eletrônicos.md",
-    "Sem título.base",
     "SQL/metadataCodigoUpBD.sql",
     "SQL",
     "Casos Up/images/image2.png",
