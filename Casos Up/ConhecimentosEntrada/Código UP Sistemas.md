@@ -1,11 +1,4 @@
 
-
-# `Código UP Sistemas`
-
-Manual para usuários administradores  
-Edição 1   
-09/12/2024
-
 ## **Sumário** {#sumário}
 
 [Sumário	2](#sumário)
@@ -164,8 +157,6 @@ Edição 1
 
 [CONCILIAÇÃO BANCÁRIA	91](#heading=h.4nn8eahrygz)
 
-## 
-
 ## **CADASTRO DA EMPRESA** {#cadastro-da-empresa}
 
 ### **DADOS PRINCIPAIS** {#dados-principais}
@@ -199,7 +190,6 @@ Para verificar se o **certificado digital está instalado** no windows pesquise 
   * 30.000 milissegundos é geralmente o tempo limite máximo da requisição aceito pela SEFAZ 
 
   **CERTIFICADO**
-
 
 O certificado digital é a identidade eletrônica de uma pessoa ou empresa. Ele funciona como uma carteira de identificação virtual e permite assinar documentos à distância com o mesmo valor jurídico da assinatura feita de próprio punho no papel, mas sem precisar reconhecer firma em cartório.
 
@@ -249,9 +239,6 @@ YOUTUBE: [Cadastro da Empresa \- configurações](https://youtu.be/ZvmiEbYt9kY?l
 * Permite configurar aspectos essenciais para a operação diária e a edição de documentos fiscais.  
 * Configurações para resolver pendências de Notas Fiscais.  
 * Configuração de email.
-
-Abaixo demonstraremos algumas opções de configuração:   
-![[images/image5.png]]
 
 ##### **CONFIGURAÇÃO DO EMAIL** {#configuração-do-email}
 
@@ -353,7 +340,6 @@ Abaixo demonstraremos algumas opções de configuração:
 Nessa tela podemos indicar o IP Servidor, a porta e o caminho para os arquivos para a integração do servidor WhatsApp utilizado na loja.  
 ![[images/image7.png]]
 
-## 
 
 ## **CADASTRO DE PRODUTOS** {#cadastro-de-produtos}
 
@@ -378,7 +364,6 @@ Na engrenagem de configuração de produtos podemos definir as opções globais 
 * Quando tem o cadastro do produto do cliente iguais, você configura da forma que melhor se adequa. Após configurar, o sistema automaticamente irá incluir esses dados ao fazer um novo cadastro.  
 * As últimas 2 opções de configuração das legislações define se vai **excluir o ICMS ou IPI da base de cálculo do PIS/COFINS**
 
-  ### 
 
   ### **INCLUIR OU ALTERAR PRODUTO** {#incluir-ou-alterar-produto}
 
@@ -493,18 +478,15 @@ YOUTUBE: [Cadastro de Pessoas](https://youtu.be/uZ1yzSYDewU?list=PLYBb7Dry90CR9X
   * Controle de cobranças: Funcionalidade que permite gerar mensalidades e modalidades de pagamento para os clientes. Gera o boleto e quantidade de parcelas, dá a opção de desconto para o cliente que paga antecipadamente(Opções Boletos)  
   * Configurações Tributárias:  
   * **Regime tributário**: Configuração importante para tributar produtos de acordo com o regime tributário do cliente.  
-    ![[images/image9.png
-  ]]  
+    ![[images/image9.png]]  
   * Personalização das configurações(**Opções**):   
-    ![[images/image10.png
-  ]]  
+    ![[images/image10.png]]  
     * Possibilidade de configurar cálculos de impostos como IPI e ICMS de acordo com as necessidades.  
     * Exportar o Cliente para a plataforma Mobile  
     * Validar Limite de Créd. para permitir a compra por crédito até o limite Valor Concedido, após exceder é necessário liberação para continuar comprando acima do valor concedido.   
       * Esse limite é para compra com o tipo pagamento **A Prazo**  
       * O valor limite é definido em **Valor Concedido**  
-        **![[images/image11.png
-      ]]**  
+        **![[images/image11.png]]**  
 * **Destaque para o Cadastro de Vendedor:**
 
 O tipo pessoa vendedor  faz login no app força de vendas(vendedor externo, garçom, mobile). Podemos fazer configurações específicas para esse vendedor e quando ele realizar o  login, ele será o usuário atual naquele sistema, funcionará conforme as definições e permissões utilizadas.  
@@ -584,8 +566,6 @@ Em construção
 * Para desfazer o consignado basta clicar no mesmo e no botão **cancelar\[f11\]**.  
 * Caso queira deixar um registro da devolução dos produtos ao devolver todos os itens, vá na aba financeiro e salve o consignado, deixando-o em aberto para registrar o ocorrido.
 
-## 
-
 ## **CONVERSÃO DE UNIDADE** {#conversão-de-unidade-1}
 
 * Na aba produtos  temos como adicionar/alterar um produto e alterar sua **Unidade Principal**  
@@ -598,7 +578,7 @@ Em construção
 * Deixe o **Preço de Venda** em branco para que o sistema multiplique o **Preço Venda** unitário pela **Qtde Conversão** e traga o preço de venda automaticamente.
 
 YOUTUBE: [Como funciona a conversão](https://youtu.be/NMpL_RqdEHg?t=33)     
-![[images/image20.png]]
+
 
 * Com a conversão configurada corretamente posso realizar uma **venda**, preencho os dados principais e adiciono um  **Item de Pedido Venda** onde posso escolher a **Unidade** desejada
 
@@ -606,8 +586,7 @@ YOUTUBE: [Como funciona a conversão](https://youtu.be/NMpL_RqdEHg?t=33)
 
 *  Na opção abaixo podemos ver, alterar e adicionar unidades de medida.
 
-  ### **![[images/image22.png
-]]** 
+  ### **![[images/image22.png]]** 
 
   ### **SITUAÇÃO PROBLEMA CONVERSÃO MEDIDA** {#situação-problema-conversão-medida}
 
@@ -618,8 +597,6 @@ SOLUÇÃO
 Uma possível solução está na aba **Conversão de Unidade** e alterando a **Unidade de Conversão** dentro da **Manutenção de Unidades do Produto.**  
 É importante verificar as permissões do usuário.
 
-## 
-
 ## **ENTRADA NFE XML MANIFESTAÇÃO DESTINATÁRIO** {#entrada-nfe-xml-manifestação-destinatário}
 
 A manifestação do destinatário permite ao destinatário da Nota Fiscal Eletrônica \- NF-e manifestar-se sobre a sua participação comercial descrita na NF-e, confirmando as informações prestadas pelo seu fornecedor e emissor do respectivo documento fiscal.
@@ -629,18 +606,14 @@ Essa função é obrigatória podendo gerar multa para quem não executar essa r
 
 * Caso o fornecedor não esteja cadastrado é possível inseri-lo em nosso banco de dados através do botão mais ![[images/image23.png]]  
 * Em **Itens Nota Fiscal** temos em cada um dos produtos a opção de:  
-  * **Incluir** ![[images/image24.png
-]]  Um novo produto e na tela que abre já busca tudo que está no xml daquele produto como descrição, parte tributário, etc. Aqui você está fazendo um cadastramento manual.  
+  * **Incluir** ![[images/image24.png]]  Um novo produto e na tela que abre já busca tudo que está no xml daquele produto como descrição, parte tributário, etc. Aqui você está fazendo um cadastramento manual.  
   * Na tabela de Unidade podemos alterar ou incluir uma **Conversão de Unidade** clicando no botão mais  
-     ![[images/image25.png
-    ]]  
+     ![[images/image25.png]]  
   * Também podemos adicionar uma **conversão de unidade** selecionando o item e apertando a tecla **F4.**  
 * ![[images/image26.png]] **Incluir Prod. \[F3\]** irá fazer o processo anterior de forma automatizada adicionando todos os produtos ao banco de dados além de fazer o vínculo deste item com a NF
 
 Após verificar que está tudo dentro dos conformes basta **importar.**  
 Os itens estarão registrados no banco de dados local lhe permitindo tomar as decisões cabíveis através da Nota Fiscal.
-
-## 
 
 ## **ROTINA AGENDAMENTO DE RELATÓRIO** {#rotina-agendamento-de-relatório}
 
@@ -651,8 +624,6 @@ Os itens estarão registrados no banco de dados local lhe permitindo tomar as de
 * Opção de agendar a **data** de quando enviar os relatórios
 
 ![[images/image27.png]]
-
-## 
 
 ## **CAMPOS PERSONALIZADOS, GRIDS E DASHBOARD** {#campos-personalizados,-grids-e-dashboard}
 
@@ -692,8 +663,7 @@ Neste exemplo criei um grupo(Grupo de Assuntos) que reúne os outros dois grupos
 Os campos criados podem ser **visualizados na tabela** do cadastro utilizado. Após criar os campos personalizados, reinicie o sistema, volte no cadastro utilizado e altere o grid para ver o campo criado.
 
 * Caso não apareça, verificar na empresa\>configurações do sistema se a opção Não Carregar Dados ao Abrir Tela está marcado, se sim, desmarque.  
-  ![[images/image32.png
-]]
+  ![[images/image32.png]]
 
   ### **TELA INICIAL: DASHBOARD** {#tela-inicial:-dashboard}
 
@@ -705,12 +675,9 @@ Para disponibilizarmos o DashBoard na tela inicial primeiramente devemos ir na e
 **PERSONALIZAR GRID EM UM PDV BALCÃO**
 
 * Na tela de balcão, para que apareça a opção de **Configurar Grid** utilize as teclas **ALT \+ A**   
-  ![[images/image34.png
-]]  
+  ![[images/image34.png]]  
 * Salve um Layout de Grade![[images/image35.png]]  
 * Faça o processo padrão de customização de uma grid e em seguida salve no Layout de Grade criado anteriormente.
-
-## 
 
 ## **ORDEM DE SERVIÇO** {#ordem-de-serviço}
 
@@ -746,8 +713,7 @@ Caso tenha um firebird em funcionamento no computador é necessário parar o ser
 	Instalando as versões do Firebird
 
 * Ao finalizar a instalação desmarcar a opção de abrir o aplicativo, pois **só é possível instalar outras versões quando nenhum serviço do Firebird estiver em execução.**  
-  ![[images/image36.png
-]]
+  ![[images/image36.png]]
 
 * Instalando o firebird 4.0 apresentará uma mensagem avisando que já existe um firebird. Clique em **não** para prosseguir instalando a outra versão.![[images/image37.png]]
 
@@ -781,7 +747,6 @@ Também é possível acessar o diretório direto do CMD copiando o endereço da 
   * **64 bits**  
     **cd** C:\\Program Files\\Firebird\\Firebird\_4\_0
 
-
 * Comando para criar o serviço para o firebird 4(este comando é realizado no diretório):  
   **instsvc i \-g \-name "Firebird 4.0"**
 
@@ -811,32 +776,26 @@ Essa ferramenta buscará somente os dados alterados no servidor para evitar gran
 1. Instalar e configurar o Servidor Força de Vendas, será necessário para a comunicação do servidor retaguarda com a estação.  
 2. Configurar no servidor retaguarda a estação PDV:  
    1. Clique em **Cadastros\>Outras Configurações\>Estação PDV**  
-      ![[images/image43.png
-    ]]  
+      ![[images/image43.png]]  
    2. **Incluir\[F2\]** uma nova estação  
    3. Insira o código, a descrição da estação e a Conta caixa  
-      ![[images/image44.png
-    ]]  
+      ![[images/image44.png]]  
    4. Defina a rotina de atualização dos dados. Podendo automatizar a troca de informações entre o PDV OFFLINE e o RETAGUARDA. A opção de **Obrigar Atualização** e **Envio automático**.  
-      ![[images/image45.png
-    ]]  
+      ![[images/image45.png]]  
    5. A **Série NF** deve ser diferente entre as estações para que não haja duplicidade da NF.  
-      ![[images/image46.png
-    ]]
+      ![[images/image46.png]]
 
       **INSTALANDO O PDV OFF**
 
-3. Faça a instalação do sistema Up com base de dados utilizando a mesma versão de firebird utilizada pelo servidor retaguarda.  
-4. Utilize uma base de Dados que esteja **totalmente zerada**, uma base com registros pode acarretar em problemas na instalação ou problemas futuros.  
-5. Ao fazer login pedirá para cadastrar/atualizar os dados da empresa  
-   1. Neste momento clique no botão **PDV OFFLINE** e configure o acesso ao servidor   
-      ![[images/image47.png
-    ]]  
-   2. Preencher os dados de host, porta,etc.. corretamente e clique em **habilitar PDV OFFLINE**  
-   3. Escolha em qual estação relacionar o PDV OFFLINE  
-   4. Ao retornar para a tela Dados da empresa, basta salvar para prosseguir  
-      **![[images/image48.png
-    ]]**  
+6. Faça a instalação do sistema Up com base de dados utilizando a mesma versão de firebird utilizada pelo servidor retaguarda.  
+7. Utilize uma base de Dados que esteja **totalmente zerada**, uma base com registros pode acarretar em problemas na instalação ou problemas futuros.  
+8. Ao fazer login pedirá para cadastrar/atualizar os dados da empresa  
+   9. Neste momento clique no botão **PDV OFFLINE** e configure o acesso ao servidor   
+      ![[images/image47.png]]  
+   10. Preencher os dados de host, porta,etc.. corretamente e clique em **habilitar PDV OFFLINE**  
+   11. Escolha em qual estação relacionar o PDV OFFLINE  
+   12. Ao retornar para a tela Dados da empresa, basta salvar para prosseguir  
+      **![[images/image48.png]]**  
       
 
 **OBSERVAÇÕES**
@@ -845,8 +804,7 @@ Essa ferramenta buscará somente os dados alterados no servidor para evitar gran
   Entre em **empresa\>configurações do sistema\>configuração offline**
 
 * **Envio automático PDV Offline:** na estação offline, localize a aba **Sistema** e abra a **Configuração da Estação**, marque a opção Enviar Dados PDV Offline  
-  ![[images/image49.png
-]]
+  ![[images/image49.png]]
 
 * Para fazer carga/atualizar ou enviar Dados a qualquer momento entre em **Cadastros\>outras configurações\>atualizar dados** ou acesse a partir da tela de vendas a partir da tecla de atalho configurada para a finalidade.
 
@@ -873,17 +831,13 @@ Se estiver em fechamento de um caixa e o sistema for fechado indevidamente. Bast
 
 Alguns erros são corrigidos na tela de Registros Utilizados
 
-## 
-
 ## **CONTROLE DE ID** {#controle-de-id}
 
 A funcionalidade de "**Controle de ID**" ou "**Manutenção de Sequência"** é comumente utilizada para gerenciar e controlar a numeração dos identificadores únicos (IDs) atribuídos a registros em tabelas de banco de dados.  
 O objetivo principal dessa funcionalidade é **garantir que os IDs atribuídos aos registros** em diferentes tabelas do banco de dados **sejam únicos e sequenciais**. Isso é fundamental para manter a integridade dos dados e evitar problemas de duplicidade ou inconsistência.
 
-**Sempre que houver um erro de duplicidade na chave pode ser corrigido ao ir em sistema\>Controle de ID e atualizar o id da tabela que está acusando duplicidade.**   
+**Sempre que houver um erro de duplicidade na chave pode ser corrigido ao ir em sistema>Controle de ID e atualizar o id da tabela que está acusando duplicidade.**   
 ![[images/image51.png]]
-
-## 
 
 ## **DESCONTO** {#desconto}
 
@@ -897,10 +851,8 @@ Para aplicar desconto em uma nota fiscal ou pedido
 * Na **NF-e ou NFC-e** também é **possível aplicar desconto**  
 * **Observar a “Finalidade da Nota”**  
   * Se a nota estiver em **DEVOLUÇÃO/RETORNO** somente é possível **aplicar desconto diretamente no item da NF**	  
-  * No item da nota, clique em alterar e procure pela aba **Devolução** para **aplicar o desconto em uma devolução**, por exemplo.![[images/image53.png
-]]
+  * No item da nota, clique em alterar e procure pela aba **Devolução** para **aplicar o desconto em uma devolução**, por exemplo.![[images/image53.png]]
 
-## 
 
 ## **CASHBACK** {#cashback}
 
@@ -909,11 +861,9 @@ Ao configurar o sistema para o uso de cashback o sistema irá gerar um crédito 
 Pode ser configurado de duas formas, por natureza de operação ou por produto, por porcentagem ou valor.
 
 * **NATUREZA DE OPERAÇÃO**: Quando é por porcentagem o sistema aplica sobre o total da venda, e quando for valor vai aplicar o valor concedido;  
-  ![[images/image54.png
-]]  
+  ![[images/image54.png]]  
 * **PRODUTO:** Por porcentagem vai aplicar sobre o valor total do item e por valor vai aplicar multiplicando pela quantidade de item.  
-  ![[images/image55.png
-]]
+  ![[images/image55.png]]
 
 **CONFIGURAÇÃO:**  
 Mesmo que use por produto, é necessário que na natureza de operação esteja marcada para **gerar CASHBACK** na venda.  
@@ -932,40 +882,29 @@ Configuração de venda na aba PDV.
 * Guarde o caminho “**Nome de compartilhamento**”
 
 Para descobrir se a impressora está compartilhada, vá em uma pasta do sistema e busque pelo diretório da máquina.  
- ![[images/image56.png
-]]  
+ ![[images/image56.png]]  
 Visualize a impressora compartilhada e guarde o endereço da mesma  
 **Ex.:**(\\MAQUINA\\IMPRESSORA)
 
 2. Extrair o arquivo **gaveta.rar** dentro da pasta do sistema  
-   ![[images/image57.png
-  ]]
+   ![[images/image57.png]]
 
- 
-
-
-   
 
 3. Na pasta do sistema e procure por  **AbreGavetaConfi**  
-   1. Inserir o “Serial” da impressora: Basta utilizar o **Nome de compartilhamento** da impressora  
-      ![[images/image58.png
-    ]]  
-   2. Clique em cada número para descobrir qual porta abre a gaveta (Ao clicar e a gaveta abrir, está será a porta utilizada)
+   4. Inserir o “Serial” da impressora: Basta utilizar o **Nome de compartilhamento** da impressora  
+      ![[images/image58.png]]  
+   5. Clique em cada número para descobrir qual porta abre a gaveta (Ao clicar e a gaveta abrir, está será a porta utilizada)
 
-4. Abra o arquivo de configuração **gaveta**![[images/image59.png]]  
-   1. Na configuração **“COM=”** coloque o endereço em rede da impressora(visto no passo 1\)  
+6. Abra o arquivo de configuração **gaveta**![[images/image59.png]]  
+   7. Na configuração **“COM=”** coloque o endereço em rede da impressora(visto no passo 1\)  
       **Ex.:** COM=\\MAQUINA\\IMPRESSORA  
-      ![[images/image60.png
-    ]]  
-   2. No **BOTÃO** utilize a **porta** que foi descoberta no **AbreGavetaConfi**
+      ![[images/image60.png]]  
+   8. No **BOTÃO** utilize a **porta** que foi descoberta no **AbreGavetaConfi**
 
-5. No sistema abra **Pedidos de Venda\>Engrenagem de Configuração\>Aba PDV**  
-   1. procure pela Configuração Gaveta na parte inferior da tela  
-      **![[images/image61.png
-    ]]**  
+9. No sistema abra **Pedidos de Venda\>Engrenagem de Configuração\>Aba PDV**  
+   10. procure pela Configuração Gaveta na parte inferior da tela  
+      **![[images/image61.png]]**  
       **Obs.:**  Esta forma de configuração não é necessário marcar a porta 
-
-## 
 
 ## **VÁRIOS LOCAIS DE ESTOQUE** {#vários-locais-de-estoque}
 
@@ -980,10 +919,6 @@ Para visualizar as informações de um produto por estoque(depósito) registrado
 * Para as vendas serem efetuadas no PDV e **informar corretamente o estoque** que está sendo utilizado é necessário na **Natureza de Operação** escolher o **Local Estoque.**   
 * Se não tiver escolhido o Local Estoque ele utilizará o estoque **principal**.![[images/image63.png]]
 
-## 
-
-## 
-
 ## **MOVIMENTAR ESTOQUE CONTÁBIL COM OUTRO PRODUTO** {#movimentar-estoque-contábil-com-outro-produto}
 
 Ex: Quer vender um produto x que não movimenta o estoque e no lugar movimenta o estoque de outro produto.
@@ -991,22 +926,19 @@ Ex: Quer vender um produto x que não movimenta o estoque e no lugar movimenta o
 * Cria os dois produtos  
 * Em um dos produtos vá na aba “movimentações contábil”  
 * Na parte de baixo acrescente o produto que irá movimentar o estoque.  
-  ![[images/image64.png
-]]
+  ![[images/image64.png]]
 
 **Detalhes:**   
 Ambos produtos ficam como REVENDA  
 Marque ou desmarque a **opção controla estoque** de acordo com as necessidades
 
-## 
 
 ## **VÁRIOS ENDEREÇOS POR PESSOA / ESCOLHER ENDEREÇO AO EMITIR NF** {#vários-endereços-por-pessoa-/-escolher-endereço-ao-emitir-nf}
 
 ## Cliente com 2 inscrições estaduais quer registrar mais de um endereço  para cada inscrição para ao emitir uma NF ele possa incluir o endereço apenas alternando entre eles. É comum acontecer com escolas também, em que a cidade ou estado tem apenas um CNPJ mas com diversas escolas e localizações. Veja abaixo:
 
 *    Abra o cadastro de pessoas, vá à aba endereços e inclua os endereços  
-  ![[images/image65.png
-]]  
+  ![[images/image65.png]]  
 *     Preencha corretamente os dados  
 *    Nessa tela você pode incluir a Insc. Estadual de cada endereço e sua Razão Social  
 *   Verifique as informações e salve todos os endereços
@@ -1014,14 +946,11 @@ Marque ou desmarque a **opção controla estoque** de acordo com as necessidades
   ### **Mudar endereço na NF** {#mudar-endereço-na-nf}
 
 *  Para alterar o endereço, clicamos na aba Local Entrega/Retirada  
-  **![[images/image66.png
-]]**  
+  **![[images/image66.png]]**  
 * Nesta aba podemos pesquisar pelos endereços já registrados, alterar endereços ou incluir um novo  
-  ![[images/image67.png
-]]  
+  ![[images/image67.png]]  
 * Após inserir o endereço, será alterado as informações no “Local Entrega/Retirada” e essas informações serão “puxadas” para o “Dados do Destinatário/Remetente”  
-  ![[images/image68.png
-]]
+  ![[images/image68.png]]
 
 ## **EMAIL** {#email}
 
@@ -1094,14 +1023,10 @@ Esta frase está se referindo a um dos critérios para calcular o valor do impos
 **Se precisa destacar o crédito ICMS**
 
 * Pode ser configurado na Natureza de Operação.  
-  ![[images/image72.png
-]]
+  ![[images/image72.png]]
 
 * Pode ser configurado no cadastro da empresa na aba Documentos Eletrônicos selecione a aba Conf.Extras.  
-  ![[images/image73.png
-]]
-
-## 
+  ![[images/image73.png]]
 
 ## **Uma NF de vários produtos, precisa gerar uma nota para cada** {#uma-nf-de-vários-produtos,-precisa-gerar-uma-nota-para-cada}
 
@@ -1137,8 +1062,6 @@ Não há a obrigação de informar, o equipamento ou defeito, mas se informado e
 * Lembrando que para o envio automático precisa ter o envio de email configurado no cadastro da empresa.
 
 ![[images/image77.png]]
-
-## 
 
 ## **CONFIGURAR AJUSTE FISCAL** {#configurar-ajuste-fiscal}
 
@@ -1187,18 +1110,15 @@ Se uma forma de pagamento tem ajuste em 100%, mas o tipo de documento vinculado 
 
 3. **Cadastro de Formas de pagamento.**  
    1. Entre na tela **Cadastro\>Formas de Pagamento**   
-   2. Inclua uma forma de pagamento e configure o ajuste em 0![[images/image79.png
-  ]]  
+   2. Inclua uma forma de pagamento e configure o ajuste em 0![[images/image79.png]]  
    3. Para organizar as Formas de pagamento, coloque uma ordem numérica no início da descrição.  
    4. Em **Cadastro\>Vendas\>Configuração de Venda\>Dados Principais** localize a aba Opções 2 e marque “Obrigar FORMA DE PAGAMENTO ao finalizar”.  
    5. Ex: Ao finalizar uma venda em dinheiro, ele abrirá uma tela para escolher a Forma de Pagamento.  
-      ![[images/image80.png
-    ]]  
-4. **Configurar por cadastro de cliente**  
-   1. Entre na tela **Cadastro\>Outras Pessoas\>Clientes**  
-   2. Procure pelo campo ajuste e defina um valor  
-      ![[images/image81.png
-    ]]  
+      ![[images/image80.png]]  
+6. **Configurar por cadastro de cliente**  
+   7. Entre na tela **Cadastro\>Outras Pessoas\>Clientes**  
+   8. Procure pelo campo ajuste e defina um valor  
+      ![[images/image81.png]]  
       
 
 ##  **DIVISÃO DE CONTA c/ TAXA COUVERT** {#divisão-de-conta-c/-taxa-couvert}
@@ -1213,10 +1133,6 @@ Para movimentar o caixa, retirar o valor de uma conta para outra com finalidade 
 Em **financeiro\>movimento de contas**  você tem a opção de **transferir\[F7\]**.  
 **![[images/image82.png]]**
 
-## 
-
-## 
-
 ## **DEFINIR CAIXA POR PDV/USUÁRIO OU  VENDEDOR** {#definir-caixa-por-pdv/usuário-ou-vendedor}
 
 A fim de visualizar no Saldo de Contas as movimentações de forma separada, seja por vendedores, por pdv, por grupo de vendas,etc. ou para abrirmos mais de um caixa:  
@@ -1227,22 +1143,21 @@ Definindo a configuração de caixa no cadastro de usuário ou de vendedor a con
    1. Primeiro precisamos definir qual conta utilizaremos ou se é preciso criar uma nova conta.  
    2. Para criar uma nova conta, basta ir em **Cadastros\>Contas** e clicar no botão de incluir ou na tecla F2.  
    3. Faça as configurações de acordo com as necessidades, defina uma descrição e um caixa destino(geralmente o cofre/caixa mestre)  
-      ![[images/image83.png
-    ]]  
-2. **De acordo com a necessidade ou regra de negócio, configure a conta na configuração caixa dos usuários ou vendedores.**  
+      ![[images/image83.png]]  
+4. **De acordo com a necessidade ou regra de negócio, configure a conta na configuração caixa dos usuários ou vendedores.**  
    Por exemplo:  
-   1. Se você precisa de uma leitura mais precisa das movimentações realizadas pelos vendedores externos.  
+   5. Se você precisa de uma leitura mais precisa das movimentações realizadas pelos vendedores externos.  
       1.  Você precisa ir no cadastro dessas pessoas e incluir na configuração de Caixa a conta que será para esse tipo.   
       2. É necessário abrir o caixa dessa conta no retaguarda antes que os vendedores realizem vendas.   
       3. É possível ter diversos vendedores utilizando uma só conta, ou uma conta por vendedor por ex.
 
-   2. Se você precisa ter um caixa por PDV, ou uma conta que detenha as movimentações de todos os PDVs para que possa entender/controlar melhor o Saldo de contas.  
+   6. Se você precisa ter um caixa por PDV, ou uma conta que detenha as movimentações de todos os PDVs para que possa entender/controlar melhor o Saldo de contas.  
       1. Precisa ir no cadastro de usuário e definir na configuração Caixa a conta que será utilizada  
          ![[images/image84.png
         ]]  
       2. Ao abrir um PDV e logar com o usuário que tem definido a conta Caixa você estará movimentando essa conta.  
       3. Dependendo da configuração da conta, ela te obrigará a abrir o caixa assim que logar.  
-3. Após tudo configurado, basta que tenha concluído uma rotina de abertura e fechamento de caixa para que essas movimentações constem no Saldo de Contas.
+7. Após tudo configurado, basta que tenha concluído uma rotina de abertura e fechamento de caixa para que essas movimentações constem no Saldo de Contas.
 
 ## 
 
@@ -1571,8 +1486,7 @@ O campo preenchido no APK para quantidade de pessoas alimenta o campo de pessoas
 1.2: Clique em Notas Fiscais Emitidas  
 1.3: Clique em Incluir   
 1.4.Siga o Passo a Passo abaixo  
-	1.4.1![[images/image133.png
-]]  
+	1.4.1  ![[image133.jpg]]
 	1.4.2: Selecione  a operação ou crie uma nova → Clique no ( V ) para gerar o número→ Selecione o cliente → Outras Informações  
 1.5: Selecione se a devolução será feita a partir de uma única nota ou de várias notas  
 ![[images/image134.png]]  
@@ -1604,151 +1518,5 @@ Na tela que voce quer criar a grid nova clica na engrenagem do lado do nome layo
 
 Depois feito isso, caso não queria que o usuário tenha acesso para poder alterar o layout da grid e deixar somente na que voce criou agora, e so ir na configuração do usuário no PDV OFF, depois selecione o usuário, depois clica em visualizar, vai em layout de grid, pesquise a descrição do layout grid que voce acabou de criar e marca o checkbox não alterar.
 
-![[images/image141.png]]
-
 Com isso se voltar agora na mesma tela onde foi criada a grid pode constatar que não consegue mais alterar o layout da grid  
 ![[images/image142.png]]
-
-## 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
