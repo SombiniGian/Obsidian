@@ -11,12 +11,14 @@
             "id": "e11a1ed0dc171484",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "images/image4.png"
+                "file": "ConhecimentosEntrada/Módulo 1 Arquitetura e Engenharia do Cadastro de Pessoas.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "image4"
+              "icon": "lucide-file",
+              "title": "Módulo 1 Arquitetura e Engenharia do Cadastro de Pessoas"
             }
           }
         ]
@@ -195,15 +197,23 @@
   },
   "active": "e11a1ed0dc171484",
   "lastOpenFiles": [
+    "ConhecimentosEntrada/Módulo 24 Motor de Gatilhos (Triggers) - Regras de Negócio Automatizadas.md",
+    "ConhecimentosEntrada/Módulo 23 Automação Avançada - Gatilhos (Triggers) e Personalização.md",
+    "ConhecimentosEntrada/Módulo 22 Operações Práticas e Infraestrutura de Sincronização.md",
+    "ConhecimentosEntrada/Módulo 21 PDV Offline - Arquitetura e Cenários de Operação.md",
+    "ConhecimentosEntrada/Módulo 20 Importação de Notas, Tributação e SPED.md",
+    "ConhecimentosEntrada/Módulo 19 Notas Fiscais Emitidas e Regras de Contingência.md",
+    "ConhecimentosEntrada/Módulo 18 Gestão de Transporte (CT-e, MDF-e) e Guias (GNRE).md",
+    "ConhecimentosEntrada/Módulo 17 Configurações Globais Fiscais e Documentos Eletrônicos.md",
+    "ConhecimentosEntrada/Módulo 16 Controle Bancário, Caixas e Transferências.md",
+    "ConhecimentosEntrada/Módulo 15 Gestão de Contas a Pagar e Borderôs de Negociação Comissão.md",
+    "images/image4.png",
     "Projeto1/AO INICIAR.md",
     "ConhecimentosEntrada/Módulo 12 Movimentações Auxiliares (Transferências, Vasilhames, Almoxarifado e Inventário).md",
     "Pasted image 20260521092057.png",
     "ConhecimentosEntrada/Módulo 1 Arquitetura e Engenharia do Cadastro de Pessoas.md",
     "ConhecimentosEntrada/Código UP Sistemas.md",
     "erro.md",
-    "ConhecimentosEntrada/Módulo 17 Configurações Globais Fiscais e Documentos Eletrônicos.md",
-    "ConhecimentosEntrada/Módulo 16 Controle Bancário, Caixas e Transferências.md",
-    "ConhecimentosEntrada/Módulo 15 Gestão de Contas a Pagar e Borderôs de Negociação Comissão.md",
     "ConhecimentosEntrada/Módulo 14 Integração Bancária, Boletos e TEF Cartões.md",
     "ConhecimentosEntrada/Módulo 13 Gestão de Recebimentos, Contas a Receber e Cobranças.md",
     "ConhecimentosEntrada/Módulo 11 Ordem de Serviço, Produção e Frota.md",
@@ -218,15 +228,12 @@
     "images/image3.png",
     "image3 1.png",
     "Projeto1/Fotos Resolução Produtos/Erro de Conexão ao abrir o Sistema.png",
-    "Projeto1/Fotos Resolução Produtos/enviar desconto NF.png",
     "Projeto1/NOTA FISCAL.md",
     "Projeto1/NATUREZA DE OPERAÇÃO.md",
     "Projeto1/IMPRESSÃO.md",
     "image3.md",
     "image2.md",
     "Projeto1/CASOS UP.md",
-    "Modelo de Template/Template de Caso.md",
-    "Projeto1/ERROS.md",
     "Modelo de Template",
     "Base de Conhecimentos/Configurações Técnicas",
     "Base de Conhecimentos/Estoque e Cadastros",
@@ -235,11 +242,7 @@
     "Base de Conhecimentos",
     "Painel e Indices",
     "Projeto1",
-    "Projeto1/PRODUTOS.md",
-    "SYLVIO.md",
     "Sem título.canvas",
-    "THALES.md",
-    "Projeto1/TIPO DOCUMENTO.md",
     "Projeto1/Fotos Resolução Produtos"
   ]
 }
