@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ConhecimentosEntrada/Módulo 3 Recursos de Interface, Customização e White Label.md",
+                "file": "Ordem de Serviço.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Módulo 3 Recursos de Interface, Customização e White Label"
+              "title": "Ordem de Serviço"
             }
           }
         ]
@@ -197,6 +197,13 @@
   },
   "active": "e11a1ed0dc171484",
   "lastOpenFiles": [
+    "Pasted image 20260521105126.png",
+    "Ordem de Serviço.md",
+    "Processando",
+    "Pasted image 20260521104543.png",
+    "Pasted image 20260521092057.png",
+    "Pasted image 20260521105104.png",
+    "ConhecimentosEntrada/Módulo 3 Recursos de Interface, Customização e White Label.md",
     "ConhecimentosEntrada/Módulo 1 Arquitetura e Engenharia do Cadastro de Pessoas.md",
     "ConhecimentosEntrada/Módulo 24 Motor de Gatilhos (Triggers) - Regras de Negócio Automatizadas.md",
     "ConhecimentosEntrada/Módulo 23 Automação Avançada - Gatilhos (Triggers) e Personalização.md",
@@ -211,7 +218,6 @@
     "images/image4.png",
     "Projeto1/AO INICIAR.md",
     "ConhecimentosEntrada/Módulo 12 Movimentações Auxiliares (Transferências, Vasilhames, Almoxarifado e Inventário).md",
-    "Pasted image 20260521092057.png",
     "ConhecimentosEntrada/Código UP Sistemas.md",
     "erro.md",
     "ConhecimentosEntrada/Módulo 14 Integração Bancária, Boletos e TEF Cartões.md",
@@ -219,9 +225,6 @@
     "ConhecimentosEntrada/Módulo 11 Ordem de Serviço, Produção e Frota.md",
     "ConhecimentosEntrada/Módulo 10 Processos de Compras e Cotações.md",
     "ConhecimentosEntrada",
-    "Pasted image 20260521105126.png",
-    "Pasted image 20260521105104.png",
-    "Pasted image 20260521104543.png",
     "Código UP Sistemas.md",
     "Projeto1/Fotos Resolução Produtos/image3.png",
     "images/image2.png",
@@ -231,9 +234,6 @@
     "Projeto1/NOTA FISCAL.md",
     "Projeto1/NATUREZA DE OPERAÇÃO.md",
     "Projeto1/IMPRESSÃO.md",
-    "image3.md",
-    "image2.md",
-    "Projeto1/CASOS UP.md",
     "Modelo de Template",
     "Base de Conhecimentos/Configurações Técnicas",
     "Base de Conhecimentos/Estoque e Cadastros",
@@ -242,7 +242,6 @@
     "Base de Conhecimentos",
     "Painel e Indices",
     "Projeto1",
-    "Sem título.canvas",
-    "Projeto1/Fotos Resolução Produtos"
+    "Sem título.canvas"
   ]
 }
