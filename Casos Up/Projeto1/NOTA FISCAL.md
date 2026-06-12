@@ -1,0 +1,7 @@
+[[ERROS]]
+WEBSERVICE CONSULTA STATUS SERVIÇO - INATIVO OU INOPERANTE
+
+SOLUÇÃO:
+*  PASSAR O CAMINHO DO CERTIFICADO CORRETAMENTE E COLOCAR COMO OPENSSL
+![[CAMINHO_CERTIFICADO.png]]
+-------------------------------------------------------------------------------
