@@ -24,7 +24,7 @@ O aplicativo POS possui integração nativa e homologação com as principais ad
     *   PagBank
     *   Rede
     *   Getnet
-    *   Terminais de autoatendimento e totens (ex: linha Elgin).
+    *   Terminais de autoatendimento e totens (ex: linha Elgin e Clover).
 
 ## 3. Processos de Migração de Dados (Onboarding)
 
