@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "d31ef40b6171c6e8",
+        "id": "0ba9db01647aa7f6",
         "type": "tabs",
         "children": [
           {
-            "id": "c6725b447dbaafc5",
+            "id": "db983ca19a2a3acc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ConhecimentosEntrada/Processando/Resumo.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Resumo"
+              "title": "Nova aba"
             }
           }
         ]
@@ -78,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 304.5
+    "width": 219.5
   },
   "right": {
     "id": "b41576a2e1357bd4",
@@ -156,13 +152,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ERROS AO INICIAR.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de ERROS AO INICIAR"
+              "title": "Sumário"
             }
           },
           {
@@ -180,7 +175,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 332.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,6 +192,22 @@
   },
   "active": "9730c6a4bbba318a",
   "lastOpenFiles": [
+    "Processando/Visão Geral da Arquitetura e Módulos do ERPSem título.md",
+    "Processando/Boletos Bancários - Configuração e formas de emissão.md",
+    "Processando/Restaurante - Controle de Produção.md",
+    "Processando/Movimentação de Consignado.md",
+    "Processando/Compra e Venda Com Lote e Serie.md",
+    "Processando/Precificação dos produtos.md",
+    "Processando/PDV Novo totalmente personalizável.md",
+    "Processando/Incluir Campos Extras - Ferramenta que permite adicionar mais informações no cadastro.md",
+    "Processando/Carga - Montagem, faturamento e algumas configurações.md",
+    "Processando/Emissão boletos a partir do Faturamento de um Pedido.md",
+    "Processando/Configurações Básicas  - Inventario de Estoque.md",
+    "Processando/Configurações Básicas  - Pedido de Venda.md",
+    "Processando/Configurações Básicas  - Personalização dos Grids e Auditoria.md",
+    "Processando/Configurações Básicas Empresa e Permissão de Usuário.md",
+    "Processando/Resumo.md",
+    "Processando/Ordem de Serviço.md",
     "Projeto1/Fotos Resolução Produtos/Erro de Conexão ao abrir o Sistema.png",
     "Projeto1/Fotos Resolução Produtos/enviar desconto NF.png",
     "Projeto1/Fotos Resolução Produtos/CAMINHO_CERTIFICADO.png",
@@ -214,31 +225,15 @@
     "Projeto1",
     "Pasted image 20260521092057.png",
     "ConhecimentosEntrada/Módulo 9 Logística de Entregas, Controle de Cargas e Vendas Consignadas.md",
-    "ConhecimentosEntrada/Módulo 8 Emissão de Notas, Devoluções e Faturamento.md",
-    "ConhecimentosEntrada/Módulo 7 Pedido de Venda e Configurações de Telas Operacionais.md",
-    "ConhecimentosEntrada/Módulo 14 Integração Bancária, Boletos e TEF Cartões.md",
-    "ConhecimentosEntrada/Módulo 13 Gestão de Recebimentos, Contas a Receber e Cobranças.md",
-    "ConhecimentosEntrada/Módulo 12 Movimentações Auxiliares (Transferências, Vasilhames, Almoxarifado e Inventário).md",
-    "ConhecimentosEntrada/Módulo 11 Ordem de Serviço, Produção e Frota.md",
-    "ConhecimentosEntrada/Módulo 10 Processos de Compras e Cotações.md",
-    "ConhecimentosEntrada/Módulo 1 Arquitetura e Engenharia do Cadastro de Pessoas.md",
-    "ConhecimentosEntrada/Processando/Visão Geral da Arquitetura e Módulos do ERPSem título.md",
-    "ConhecimentosEntrada/Processando/Resumo.md",
-    "ConhecimentosEntrada/Processando/Ordem de Serviço.md",
     "ConhecimentosEntrada/Processando/Ordem de Serviço",
     "images/image3.png",
     "images/image5.png",
     "images/image6.png",
     "images/image8.png",
-    "ConhecimentosEntrada/Modulo/Módulo 2 Gestão e Configuração de Produtos.md",
-    "ConhecimentosEntrada/Modulo/Módulo 3 Recursos de Interface, Customização e White Label.md",
     "ConhecimentosEntrada/Modulo",
     "Sem título",
     "Pasted image 20260521105126.png",
-    "ConhecimentosEntrada/Processando",
-    "Pasted image 20260521104543.png",
-    "ConhecimentosEntrada/Modulo/Módulo 1 Arquitetura e Engenharia do Cadastro de Pessoas.md",
-    "ConhecimentosEntrada/Modulo/Módulo 24 Motor de Gatilhos (Triggers) - Regras de Negócio Automatizadas.md",
+    "Processando",
     "ConhecimentosEntrada",
     "Modelo de Template",
     "Base de Conhecimentos/Configurações Técnicas",
