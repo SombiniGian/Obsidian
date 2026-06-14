@@ -4,39 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "17c64feba0d6ee87",
+        "id": "0ba9db01647aa7f6",
         "type": "tabs",
         "children": [
           {
-            "id": "e11a1ed0dc171484",
+            "id": "db983ca19a2a3acc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Código UP Sistemas.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Código UP Sistemas"
-            }
-          },
-          {
-            "id": "03e74a292b198e9b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "erro.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "erro"
+              "title": "Nova aba"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 304.5
+    "width": 219.5
   },
   "right": {
     "id": "b41576a2e1357bd4",
@@ -171,13 +152,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ERROS AO INICIAR.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de ERROS AO INICIAR"
+              "title": "Sumário"
             }
           },
           {
@@ -195,7 +175,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 332.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -210,50 +190,54 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "03e74a292b198e9b",
+  "active": "9730c6a4bbba318a",
   "lastOpenFiles": [
-    "Pasted image 20260521092057.png",
-    "Código UP Sistemas.md",
-    "erro.md",
-    "Projeto1/Fotos Resolução Produtos/image3.png",
-    "images/image2.png",
-    "images/image3.png",
-    "image3 1.png",
+    "Processando/Visão Geral da Arquitetura e Módulos do ERPSem título.md",
+    "Processando/Boletos Bancários - Configuração e formas de emissão.md",
+    "Processando/Restaurante - Controle de Produção.md",
+    "Processando/Movimentação de Consignado.md",
+    "Processando/Compra e Venda Com Lote e Serie.md",
+    "Processando/Precificação dos produtos.md",
+    "Processando/PDV Novo totalmente personalizável.md",
+    "Processando/Incluir Campos Extras - Ferramenta que permite adicionar mais informações no cadastro.md",
+    "Processando/Carga - Montagem, faturamento e algumas configurações.md",
+    "Processando/Emissão boletos a partir do Faturamento de um Pedido.md",
+    "Processando/Configurações Básicas  - Inventario de Estoque.md",
+    "Processando/Configurações Básicas  - Pedido de Venda.md",
+    "Processando/Configurações Básicas  - Personalização dos Grids e Auditoria.md",
+    "Processando/Configurações Básicas Empresa e Permissão de Usuário.md",
+    "Processando/Resumo.md",
+    "Processando/Ordem de Serviço.md",
     "Projeto1/Fotos Resolução Produtos/Erro de Conexão ao abrir o Sistema.png",
     "Projeto1/Fotos Resolução Produtos/enviar desconto NF.png",
     "Projeto1/Fotos Resolução Produtos/CAMINHO_CERTIFICADO.png",
     "Projeto1/Fotos Resolução Produtos/ACERTO_INVENTARIO.png",
+    "Projeto1/TIPO DOCUMENTO.md",
+    "Projeto1/PRODUTOS.md",
     "Projeto1/NOTA FISCAL.md",
     "Projeto1/NATUREZA DE OPERAÇÃO.md",
     "Projeto1/IMPRESSÃO.md",
-    "Projeto1/AO INICIAR.md",
-    "images/image1.png",
-    "image3.md",
-    "image2.md",
-    "Projeto1/CASOS UP.md",
-    "Modelo de Template/Template de Caso.md",
+    "Projeto1/Fotos Resolução Produtos",
     "Projeto1/ERROS.md",
+    "Projeto1/erro.md",
+    "Projeto1/AO INICIAR.md",
+    "Projeto1/CASOS UP.md",
+    "Projeto1",
+    "Pasted image 20260521092057.png",
+    "ConhecimentosEntrada/Módulo 9 Logística de Entregas, Controle de Cargas e Vendas Consignadas.md",
+    "ConhecimentosEntrada/Processando/Ordem de Serviço",
+    "images/image3.png",
+    "images/image5.png",
+    "images/image6.png",
+    "images/image8.png",
+    "ConhecimentosEntrada/Modulo",
+    "Sem título",
+    "Pasted image 20260521105126.png",
+    "Processando",
+    "ConhecimentosEntrada",
     "Modelo de Template",
     "Base de Conhecimentos/Configurações Técnicas",
     "Base de Conhecimentos/Estoque e Cadastros",
-    "Base de Conhecimentos/Financeiro e Bancos",
-    "Base de Conhecimentos/Faturamento e Fiscal",
-    "Base de Conhecimentos",
-    "Painel e Indices",
-    "Projeto1",
-    "Projeto1/PRODUTOS.md",
-    "SYLVIO.md",
-    "Sem título.canvas",
-    "THALES.md",
-    "Projeto1/TIPO DOCUMENTO.md",
-    "Sem título 1.md",
-    "Projeto1/Fotos Resolução Produtos",
-    "Tipo documento.md",
-    "Inicialização do Sistema.md",
-    "notas fiscais.md",
-    "Pasted image 20260511112026.png",
-    "Sem título.base",
-    "2026-05-11.md",
-    "crie um link.md"
+    "Sem título.canvas"
   ]
 }
