@@ -175,7 +175,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,7 +191,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "9730c6a4bbba318a",
+  "active": "db983ca19a2a3acc",
   "lastOpenFiles": [
     "Processando/Visão Geral da Arquitetura e Módulos do ERPSem título.md",
     "Processando/Boletos Bancários - Configuração e formas de emissão.md",
