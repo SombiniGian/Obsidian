@@ -11,10 +11,12 @@
             "id": "db983ca19a2a3acc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nova aba"
+              "type": "image",
+              "state": {
+                "file": "Pasted image 20260521092057.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20260521092057"
             }
           }
         ]
