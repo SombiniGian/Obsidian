@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Casos Up/ConhecimentosEntrada/Código UP Sistemas.md",
+                "file": "ProcessandoDocOficialUp/Documentação Técnica Código Up.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Código UP Sistemas"
+              "title": "Documentação Técnica Código Up"
             }
           }
         ]
@@ -183,12 +183,28 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "624e5139345cdd4c",
+  "active": "e8c61d403f72b663",
   "lastOpenFiles": [
-    "Casos Up/ConhecimentosEntrada/Módulo 24 Motor de Gatilhos (Triggers) - Regras de Negócio Automatizadas.md",
+    "ProcessandoDocOficialUp.rar",
+    "ProcessandoDocOficialUp/Sem título.md",
+    "ProcessandoDocOficialUp/Documentação Técnica Código Up.md",
+    "SQL/metadataCodigoUpBD.md",
+    "ProcessandoDocOficialUp/images/image99.png",
+    "ProcessandoDocOficialUp/images/image98.png",
+    "ProcessandoDocOficialUp/images/image97.png",
+    "ProcessandoDocOficialUp/images/image96.png",
+    "ProcessandoDocOficialUp/images/image95.png",
+    "ProcessandoDocOficialUp/images/image94.png",
+    "ProcessandoDocOficialUp/images/image93.png",
+    "ProcessandoDocOficialUp/images/image92.png",
+    "ProcessandoDocOficialUp/images/image91.png",
+    "ProcessandoDocOficialUp/images/image90.png",
+    "ProcessandoDocOficialUp/images",
+    "ProcessandoDocOficialUp/CdigoUPSistemas.html",
+    "Sem título.base",
     "Casos Up/ConhecimentosEntrada/Código UP Sistemas.md",
-    "Casos Up/images/image2.png",
-    "Casos Up/images/image36.png",
+    "ProcessandoDocOficialUp",
+    "Casos Up/ConhecimentosEntrada/Módulo 24 Motor de Gatilhos (Triggers) - Regras de Negócio Automatizadas.md",
     "Casos Up/ConhecimentosEntrada/Módulo 6 Arquitetura Tecnológica, Integrações e Deploy.md",
     "Casos Up/ConhecimentosEntrada/Módulo 5 Natureza de Operação e Engenharia Tributária.md",
     "Casos Up/ConhecimentosEntrada/Módulo 2 Gestão e Configuração de Produtos.md",
@@ -209,18 +225,8 @@
     "Casos Up/ConhecimentosEntrada/Módulo 9 Logística de Entregas, Controle de Cargas e Vendas Consignadas.md",
     "Casos Up/ConhecimentosEntrada/Módulo 8 Emissão de Notas, Devoluções e Faturamento.md",
     "Casos Up/ConhecimentosEntrada/Módulo 7 Pedido de Venda e Configurações de Telas Operacionais.md",
-    "Casos Up/ConhecimentosEntrada/Módulo 4 Gestão Financeira, Contas e Regras de Pagamento.md",
-    "Casos Up/ConhecimentosEntrada/Módulo 3 Recursos de Interface, Customização e White Label.md",
-    "Casos Up/ConhecimentosEntrada/Módulo 1 Arquitetura e Engenharia do Cadastro de Pessoas.md",
-    "Sem título.base",
-    "Casos Up/Pasted image 20260521092057.png",
     "Casos Up/ConhecimentosEntrada",
-    "Sem título",
     "SQL/metadataCodigoUpBD.sql",
-    "SQL",
-    "Casos Up/Projeto1/Fotos Resolução Produtos/ACERTO_INVENTARIO.png",
-    "Casos Up/Projeto1/Fotos Resolução Produtos/Erro de Conexão ao abrir o Sistema.png",
-    "Casos Up/Projeto1/Fotos Resolução Produtos/enviar desconto NF.png",
-    "Casos Up/Projeto1/Fotos Resolução Produtos/CAMINHO_CERTIFICADO.png"
+    "SQL"
   ]
 }

@@ -1,6 +1,5 @@
 
-Na tabela de pessoas ijadaioshdaskjdasm,aslkfkjashfklas\a.ç,xçlz,asasfpajsfjpaosfasf
-```
+
 CREATE TABLE TB_PESSOA (
     PES_ID INTEGER NOT NULL,
     PES_TIPO_PESSOA VARCHAR(1),
@@ -73,7 +72,6 @@ CREATE TABLE TB_PESSOA (
     PES_ESTACAO_PDV INTEGER,
     PES_ID_MELI VARCHAR(100));```
 
-```
 
 /* TB_BANCO */
 CREATE TABLE TB_BANCO (
