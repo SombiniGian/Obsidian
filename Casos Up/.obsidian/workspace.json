@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Processando/Ordem de Serviço.md",
+                "file": "Processando/Resumo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ordem de Serviço"
+              "title": "Resumo"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 561.5
+    "width": 638.5
   },
   "right": {
     "id": "b41576a2e1357bd4",
@@ -197,15 +197,21 @@
   },
   "active": "f0ef4dd158e21905",
   "lastOpenFiles": [
-    "Processando/Emissão CF-e SAT.md",
+    "Processando/Visão Geral da Arquitetura e Módulos do ERPSem título.md",
     "Processando/Ordem de Serviço.md",
-    "Processando/Configurações Básicas  - Personalização dos Grids e Auditoria.md",
     "Processando/Configuração SAT.md",
+    "Projeto1/IMPRESSÃO.md",
+    "Projeto1/ERROS.md",
+    "Projeto1/erro.md",
+    "Projeto1/AO INICIAR.md",
+    "Projeto1/CASOS UP.md",
+    "Processando/Instalação Up System.md",
+    "Processando/Emissão CF-e SAT.md",
+    "Processando/Configurações Básicas  - Personalização dos Grids e Auditoria.md",
     "Processando/Frete por Região - Configurando o calculo das taxas.md",
     "Processando/Boletos Bancários - Configuração e formas de emissão.md",
     "Processando/Configuração de Venda.md",
     "Processando/Configuração INI.md",
-    "Processando/Instalação Up System.md",
     "Processando/Cadastros - Saiba como fazer vários tipos de cadastros.md",
     "Processando/Controle de Impressões.md",
     "Processando/Restaurante (Parte 3) - Vendas através das Mesas e Comandas.md",
@@ -218,12 +224,6 @@
     "Processando/Gerando Lote de Produção ao Vender o Produto.md",
     "Processando/Divisão de conta através da divisão de itens na comanda.md",
     "Pasted image 20260521092057.png",
-    "Processando/Visão Geral da Arquitetura e Módulos do ERPSem título.md",
-    "Processando/Restaurante - Controle de Produção.md",
-    "Processando/Movimentação de Consignado.md",
-    "Processando/Compra e Venda Com Lote e Serie.md",
-    "Processando/Precificação dos produtos.md",
-    "Processando/PDV Novo totalmente personalizável.md",
     "Projeto1/Fotos Resolução Produtos/Erro de Conexão ao abrir o Sistema.png",
     "Projeto1/Fotos Resolução Produtos/enviar desconto NF.png",
     "Projeto1/Fotos Resolução Produtos/CAMINHO_CERTIFICADO.png",

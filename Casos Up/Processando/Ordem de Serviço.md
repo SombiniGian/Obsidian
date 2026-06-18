@@ -45,4 +45,4 @@ O encerramento da Ordem de Serviço dispara o fluxo financeiro e fiscal do ERP, 
     - _Desdobramento de Itens:_ O motor fiscal do ERP separa o faturamento de mercadorias/peças substituídas (sujeitas ao ICMS via **NFe**) do faturamento da mão de obra/serviços técnicos (sujeitos ao ISSQN via **NFSe**).
         
     - _Sincronização de Regras de Negócio:_ Garante que a tributação, códigos fiscais (como CFOP e CST) e notas emitidas estejam perfeitamente amarrados à OS de origem, mitigando erros manuais de escrituração e agilizando a liberação do equipamento para o cliente final.
-- ℹ️ **Nota de Apoio:** Se restarem dúvidas ou se necessitar de assistência visual durante a leitura deste guia operacional, poderá assistir ao vídeo demonstrativo passo a passo diretamente no YouTube através do seguinte link: https://www.youtube.com/watch?v=d-bBrW8SH9o
+- ℹ️ **Nota de Apoio:** Se restarem dúvidas ou se necessitar de assistência visual durante a leitura deste guia operacional, poderá assistir ao vídeo demonstrativo passo a passo diretamente no YouTube através do seguinte link: https://www.youtube.com/watch?v=d-bBrW8SH9o e https://www.youtube.com/watch?v=LtdMeLDREgc

@@ -61,3 +61,5 @@ O módulo logístico traz inteligência de cubagem e engenharia reversa para a m
 - **Gestão Financeira e Auditoria de Títulos `[00:05:13]`:** Módulo integrado de Contas a Pagar/Receber, conciliação bancária, custódia e rastreamento de cheques e geração de arquivos de remessa/retorno de boletos `[00:05:24]`. Ícones visuais coloridos na grade alertam o operador sobre títulos vencidos, a vencer ou liquidados `[00:05:26]`.
     
 - **Automação de BI e Fechamento Noturno `[00:08:05]`:** O sistema conta com uma rotina de disparo agendado de relatórios. Caso o proprietário da empresa não esteja presente no estabelecimento, o ERP processa o fechamento físico dos caixas ao final do expediente e envia de forma automatizada os relatórios consolidados de vendas e auditoria financeira por e-mail ou canais digitais `[00:08:15]`.
+
+ℹ️ **Nota de Apoio:** Se restarem dúvidas ou se necessitar de assistência visual durante a leitura deste guia operacional, poderá assistir ao vídeo demonstrativo passo a passo diretamente no YouTube através do seguinte link: https://www.youtube.com/watch?v=YsF5BNreKDM&pp=0gcJCT4LAYcqIYzv

@@ -48,3 +48,4 @@ Além do cadastro unificado de entidades e da conversão automatizada de unidade
 - **Módulo Restaurante (Complementos e Preparo) `[00:08:38]`:** O cadastro de produtos suporta a injeção de complementos e modificadores de modo de preparo vinculados ao módulo de controle de mesas e comandas eletrônicas `[00:08:46]`.
     
 - **Gestão de Recorrência (Mensalidades/Clube) `[00:09:18]`:** Motor de cobrança integrado para o gerenciamento de contratos mensais, semestrais ou anuais, voltado para prestadores de serviço, clubes, academias e o próprio controle de carteira de clientes da revenda `[00:09:26]`.
+ℹ️ **Nota de Apoio:** Se restarem dúvidas ou se necessitar de assistência visual durante a leitura deste guia operacional, poderá assistir ao vídeo demonstrativo passo a passo diretamente no YouTube através do seguinte link: https://www.youtube.com/watch?v=WZ2pAc1Mxb0&pp=0gcJCT4LAYcqIYzv
