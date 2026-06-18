@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Processando/Configuração de Venda.md",
+                "file": "Processando/Ordem de Serviço.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Configuração de Venda"
+              "title": "Ordem de Serviço"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 219.5
+    "width": 561.5
   },
   "right": {
     "id": "b41576a2e1357bd4",
@@ -197,11 +197,15 @@
   },
   "active": "f0ef4dd158e21905",
   "lastOpenFiles": [
-    "Processando/Configuração INI.md",
-    "Processando/Configuração de Venda.md",
-    "Processando/Instalação Up System.md",
     "Processando/Emissão CF-e SAT.md",
+    "Processando/Ordem de Serviço.md",
+    "Processando/Configurações Básicas  - Personalização dos Grids e Auditoria.md",
     "Processando/Configuração SAT.md",
+    "Processando/Frete por Região - Configurando o calculo das taxas.md",
+    "Processando/Boletos Bancários - Configuração e formas de emissão.md",
+    "Processando/Configuração de Venda.md",
+    "Processando/Configuração INI.md",
+    "Processando/Instalação Up System.md",
     "Processando/Cadastros - Saiba como fazer vários tipos de cadastros.md",
     "Processando/Controle de Impressões.md",
     "Processando/Restaurante (Parte 3) - Vendas através das Mesas e Comandas.md",
@@ -212,18 +216,14 @@
     "Processando/Cobrança Gerando Boletos e Nota Fiscal de Serviço Eletrônica (NFS-e)Sem título.md",
     "Processando/Vários Locais de Estoque.md",
     "Processando/Gerando Lote de Produção ao Vender o Produto.md",
-    "Processando/Frete por Região - Configurando o calculo das taxas.md",
     "Processando/Divisão de conta através da divisão de itens na comanda.md",
     "Pasted image 20260521092057.png",
     "Processando/Visão Geral da Arquitetura e Módulos do ERPSem título.md",
-    "Processando/Boletos Bancários - Configuração e formas de emissão.md",
     "Processando/Restaurante - Controle de Produção.md",
     "Processando/Movimentação de Consignado.md",
     "Processando/Compra e Venda Com Lote e Serie.md",
     "Processando/Precificação dos produtos.md",
     "Processando/PDV Novo totalmente personalizável.md",
-    "Processando/Incluir Campos Extras - Ferramenta que permite adicionar mais informações no cadastro.md",
-    "Processando/Carga - Montagem, faturamento e algumas configurações.md",
     "Projeto1/Fotos Resolução Produtos/Erro de Conexão ao abrir o Sistema.png",
     "Projeto1/Fotos Resolução Produtos/enviar desconto NF.png",
     "Projeto1/Fotos Resolução Produtos/CAMINHO_CERTIFICADO.png",
