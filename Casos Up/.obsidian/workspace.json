@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "f298263d86b3b271",
+        "id": "ef336b3ce1c6e071",
         "type": "tabs",
         "children": [
           {
-            "id": "f0ef4dd158e21905",
+            "id": "cefcef938b2716df",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Processando/Resumo.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Resumo"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Visualização em gráfico"
             }
           }
         ]
@@ -78,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 638.5
+    "width": 200
   },
   "right": {
     "id": "b41576a2e1357bd4",
@@ -179,8 +175,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,8 +190,20 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "f0ef4dd158e21905",
+  "active": "cefcef938b2716df",
   "lastOpenFiles": [
+    "Modelo de Template/Template de Caso.md",
+    "Processando/Vários Locais de Estoque.md",
+    "Processando/Restaurante (Parte 3) - Vendas através das Mesas e Comandas.md",
+    "Processando/Restaurante (Parte 2) - Configuração do Grupos de Produto e Setor Impressão.md",
+    "Processando/Restaurante (Parte 1) - Cadastro e configuração de mesas e comandas.md",
+    "Processando/Resumo.md",
+    "Processando/Emissão CF-e SAT.md",
+    "Projeto1/Fotos Resolução Produtos/Erro de Conexão ao abrir o Sistema.png",
+    "Projeto1/Fotos Resolução Produtos/enviar desconto NF.png",
+    "Projeto1/Fotos Resolução Produtos/CAMINHO_CERTIFICADO.png",
+    "Projeto1/Fotos Resolução Produtos/ACERTO_INVENTARIO.png",
+    "Projeto1/CASOS UP.md",
     "Processando/Visão Geral da Arquitetura e Módulos do ERPSem título.md",
     "Processando/Ordem de Serviço.md",
     "Processando/Configuração SAT.md",
@@ -204,9 +211,7 @@
     "Projeto1/ERROS.md",
     "Projeto1/erro.md",
     "Projeto1/AO INICIAR.md",
-    "Projeto1/CASOS UP.md",
     "Processando/Instalação Up System.md",
-    "Processando/Emissão CF-e SAT.md",
     "Processando/Configurações Básicas  - Personalização dos Grids e Auditoria.md",
     "Processando/Frete por Região - Configurando o calculo das taxas.md",
     "Processando/Boletos Bancários - Configuração e formas de emissão.md",
@@ -214,20 +219,10 @@
     "Processando/Configuração INI.md",
     "Processando/Cadastros - Saiba como fazer vários tipos de cadastros.md",
     "Processando/Controle de Impressões.md",
-    "Processando/Restaurante (Parte 3) - Vendas através das Mesas e Comandas.md",
-    "Processando/Restaurante (Parte 1) - Cadastro e configuração de mesas e comandas.md",
-    "Processando/Restaurante (Parte 2) - Configuração do Grupos de Produto e Setor Impressão.md",
     "Processando/Relatórios Online.md",
     "Processando/Outras Movimentações de Estoque.md",
     "Processando/Cobrança Gerando Boletos e Nota Fiscal de Serviço Eletrônica (NFS-e)Sem título.md",
-    "Processando/Vários Locais de Estoque.md",
-    "Processando/Gerando Lote de Produção ao Vender o Produto.md",
-    "Processando/Divisão de conta através da divisão de itens na comanda.md",
     "Pasted image 20260521092057.png",
-    "Projeto1/Fotos Resolução Produtos/Erro de Conexão ao abrir o Sistema.png",
-    "Projeto1/Fotos Resolução Produtos/enviar desconto NF.png",
-    "Projeto1/Fotos Resolução Produtos/CAMINHO_CERTIFICADO.png",
-    "Projeto1/Fotos Resolução Produtos/ACERTO_INVENTARIO.png",
     "Projeto1/Fotos Resolução Produtos",
     "Projeto1",
     "ConhecimentosEntrada/Processando/Ordem de Serviço",

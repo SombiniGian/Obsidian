@@ -1,9 +1,14 @@
 ---
 id: CASO-XXX
-setor: 
-modulo: 
-tags: [erro-mensagem, palavra-chave1, palavra-chave2]
-data_criacao: {{date}}
+setor:
+modulo:
+tags:
+  - erro-mensagem
+  - palavra-chave1
+  - palavra-chave2
+data_criacao:
+  "{ date }":
+youtube:
 ---
 
 # 📌 Título Claro do Problema (Ex: Erro X ao fazer Ação Y)
