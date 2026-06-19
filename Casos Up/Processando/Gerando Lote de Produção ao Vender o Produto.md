@@ -1,4 +1,4 @@
-https://www.youtube.com/watch?v=yHdVRO36xko
+
 
 Este módulo detalha o funcionamento e as regras de negócio da ferramenta de **Geração Automática de Lote de Produção no Ato da Venda** do ERP Código UP. O recurso é ideal para indústrias, confecções ou empresas que trabalham no modelo de produção por demanda (_Make-to-Order_), onde a venda de um produto acabado dispara automaticamente uma ordem ou lote de fabricação para o setor industrial.
 
@@ -37,3 +37,5 @@ O ciclo de dados ocorre de forma linear através dos seguintes passos:
 - **Redução de Estoque Parado:** Evita a superprodução, fazendo com que a empresa produza estritamente o que já foi vendido, melhorando o fluxo de caixa e o giro de estoque de produtos acabados.
     
 - **Automação de Baixa:** Assim que o lote de produção é finalizado na fábrica, o sistema faz a entrada do produto acabado no estoque e a baixa definitiva das matérias-primas consumidas, alimentando o custo real de fabricação.****
+
+ℹ️ **Nota de Apoio:** Se restarem dúvidas ou se necessitar de assistência visual durante a leitura deste guia operacional, poderá assistir ao vídeo demonstrativo passo a passo diretamente no YouTube através do seguinte link https://www.youtube.com/watch?v=yHdVRO36xko

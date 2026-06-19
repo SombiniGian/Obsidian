@@ -38,3 +38,6 @@ O ERP implementa uma arquitetura de banco de dados onde a entidade **Contas a Re
 A arquitetura de tabelas do ERP suporta a emissão simultânea e concorrente de cobranças para múltiplas instituições financeiras a partir do mesmo ambiente operacional.
 
 - **Isolamento de Carteiras por Documento:** O operador pode manter um pedido faturado na carteira do Sicoob `[00:01:46]` e o pedido seguinte direcionado à carteira do Banco do Brasil `[00:05:07]`. O ERP faz o roteamento dos arquivos de remessa, regras de digitação de código de barras e layouts de impressão de forma independente, baseando-se estritamente na agência/conta parametrizada na forma de pagamento selecionada `[00:05:16]`.
+
+ℹ️ **Nota de Apoio:** Se restarem dúvidas ou se necessitar de assistência visual durante a leitura deste guia operacional, poderá assistir ao vídeo demonstrativo passo a passo diretamente no YouTube através do seguinte link
+https://www.youtube.com/watch?v=2EDlh07da_g

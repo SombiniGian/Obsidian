@@ -51,3 +51,4 @@ O sistema é versátil e foi desenvolvido para se adaptar à estrutura física d
 - **Tablets Touch Screen:** Excelente para cozinhas compactas ou balcões de montagem rápida, permitindo avançar as etapas com um toque na tela.
     
 - **Computadores Tradicionais:** Permite a operação padrão utilizando mouse e teclado comum sem perda de agilidade.
+ℹ️ **Nota de Apoio:** Se restarem dúvidas ou se necessitar de assistência visual durante a leitura deste guia operacional, poderá assistir ao vídeo demonstrativo passo a passo diretamente no YouTube através do seguinte link https://www.youtube.com/watch?v=GE2KXOK7k60&t=3s

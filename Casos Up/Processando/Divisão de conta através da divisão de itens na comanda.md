@@ -44,3 +44,5 @@ Dessa forma, o sistema exige que o "Lucas" pague apenas o valor líquido recalcu
 Após a finalização, a rastreabilidade do rateio é persistida no banco de dados para consultas gerenciais.
 
 No menu de _Histórico de Vendas_, ao localizar o cupom fechado, o gestor tem acesso ao relatório completo da operação `[00:03:58]`. O ERP discrimina o fluxo contendo o nome de cada pagador, quais itens específicos compuseram a sua sub-conta, o valor nominal teórico que deveria pagar e o valor físico exato que foi entregue no caixa `[00:04:05]`, `[00:04:14]`. Esse registro pode ser impresso em formato de comprovante detalhado para conferência do cliente `[00:04:21]`.
+
+ℹ️ **Nota de Apoio:** Se restarem dúvidas ou se necessitar de assistência visual durante a leitura deste guia operacional, poderá assistir ao vídeo demonstrativo passo a passo diretamente no YouTube através do seguinte link https://www.youtube.com/watch?v=cZLiAbEZSbM

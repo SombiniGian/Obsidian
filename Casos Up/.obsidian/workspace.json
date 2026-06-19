@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Processando/Divisão de conta através da divisão de itens na comanda.md",
+                "file": "Processando/Configurações Básicas  - Pedido de Venda.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Divisão de conta através da divisão de itens na comanda"
+              "title": "Configurações Básicas  - Pedido de Venda"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 449.5
   },
   "right": {
     "id": "b41576a2e1357bd4",
@@ -196,36 +196,36 @@
   },
   "active": "cefcef938b2716df",
   "lastOpenFiles": [
-    "Processando/Controle de Impressões.md",
+    "Processando/Configuração INI.md",
+    "Processando/Vários Locais de Estoque.md",
+    "Processando/Restaurante - Controle de Produção.md",
+    "Processando/Relatórios Online.md",
+    "Processando/Precificação dos produtos.md",
+    "Processando/PDV Novo totalmente personalizável.md",
+    "Processando/Outras Movimentações de Estoque.md",
+    "Processando/Ordem de Serviço.md",
+    "Processando/Movimentação de Consignado.md",
+    "Processando/Instalação Up System.md",
+    "Processando/Incluir Campos Extras - Ferramenta que permite adicionar mais informações no cadastro.md",
+    "Processando/Gerando Lote de Produção ao Vender o Produto.md",
+    "Processando/Frete por Região - Configurando o calculo das taxas.md",
     "Processando/Emissão boletos a partir do Faturamento de um Pedido.md",
     "Processando/Divisão de conta através da divisão de itens na comanda.md",
+    "Processando/Controle de Impressões.md",
     "Processando/Configurações Básicas Empresa e Permissão de Usuário.md",
     "Processando/Configurações Básicas  - Pedido de Venda.md",
     "Processando/Configurações Básicas  - Personalização dos Grids e Auditoria.md",
     "Processando/Configurações Básicas  - Inventario de Estoque.md",
     "Processando/Configuração SAT.md",
-    "Processando/Configuração INI.md",
     "Processando/Configuração de Venda.md",
     "Processando/Compra e Venda Com Lote e Serie.md",
     "Processando/Cobrança Gerando Boletos e Nota Fiscal de Serviço Eletrônica (NFS-e)Sem título.md",
     "Processando/Carga - Montagem, faturamento e algumas configurações.md",
     "Processando/Cadastros - Saiba como fazer vários tipos de cadastros.md",
-    "Processando/Boletos Bancários - Configuração e formas de emissão.md",
-    "Modelo de Template/Template de Caso.md",
-    "Processando/Vários Locais de Estoque.md",
-    "Processando/Restaurante (Parte 3) - Vendas através das Mesas e Comandas.md",
-    "Processando/Restaurante (Parte 2) - Configuração do Grupos de Produto e Setor Impressão.md",
-    "Processando/Restaurante (Parte 1) - Cadastro e configuração de mesas e comandas.md",
-    "Processando/Resumo.md",
-    "Processando/Emissão CF-e SAT.md",
     "Projeto1/Fotos Resolução Produtos/Erro de Conexão ao abrir o Sistema.png",
     "Projeto1/Fotos Resolução Produtos/enviar desconto NF.png",
     "Projeto1/Fotos Resolução Produtos/CAMINHO_CERTIFICADO.png",
     "Projeto1/Fotos Resolução Produtos/ACERTO_INVENTARIO.png",
-    "Projeto1/CASOS UP.md",
-    "Processando/Visão Geral da Arquitetura e Módulos do ERPSem título.md",
-    "Processando/Ordem de Serviço.md",
-    "Projeto1/IMPRESSÃO.md",
     "Pasted image 20260521092057.png",
     "Projeto1/Fotos Resolução Produtos",
     "Projeto1",

@@ -1,4 +1,4 @@
-https://www.youtube.com/watch?v=g3zan5z8xZQ&pp=0gcJCT4LAYcqIYzv
+
 
 Este módulo detalha o funcionamento e as diretrizes de parametrização da ferramenta de **Cálculo de Frete por Região/Bairro** no módulo de Delivery do ERP Código UP. O recurso foi desenvolvido para automatizar a cobrança de taxas de entrega com base na localização geográfica do cliente, reduzindo erros operacionais no momento da venda por telefone ou balcão `[00:00:00]`.
 
@@ -56,3 +56,4 @@ Durante o atendimento operacional no Delivery, a identificação e a aplicação
 - **Cenário B - Bairro Mapeado na Região Dornelas `[00:02:06]`:** Ao lançar uma entrega para uma rua localizada no bairro "Dornelas", o motor do sistema altera o comportamento e fixa a taxa correspondente de **R$ 17,00** de forma automatizada `[00:02:06]`, `[00:02:31]`.
     
 - **Cenário C - Bairro Não Cadastrado `[00:02:41]`:** Se o operador digitar um bairro que não foi catalogado no sistema (ex: "João XXIII") `[00:02:50]`, o ERP valida que nenhuma região foi atingida e aciona o fallback, cobrando o valor base de **R$ 4,00** parametrizado na configuração inicial `[00:02:59]`.
+ℹ️ **Nota de Apoio:** Se restarem dúvidas ou se necessitar de assistência visual durante a leitura deste guia operacional, poderá assistir ao vídeo demonstrativo passo a passo diretamente no YouTube através do seguinte link https://www.youtube.com/watch?v=g3zan5z8xZQ&pp=0gcJCT4LAYcqIYzv
