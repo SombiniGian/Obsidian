@@ -76,3 +76,5 @@ No retorno do veículo à base de distribuição, a carga passa pelo processo de
     - _Cotas de Boleto:_ Consolida o montante de canhotos de notas assinados e comprovantes de entrega de cobrança registrados `[00:11:49]`.
         
 - **Cálculo da Rentabilidade da Viagem:** O ERP deduz as despesas gerais de transporte do valor bruto das mercadorias, fornecendo em tempo real o **Valor Líquido da Carga** e a margem de **Lucro Líquido Real** gerada por aquela operação logística específica `[00:11:00]`.
+- 
+**Nota de Apoio:** Se restarem dúvidas ou se necessitar de assistência visual durante a leitura deste guia operacional, poderá assistir ao vídeo demonstrativo passo a passo diretamente no YouTube através do seguinte link: https://www.youtube.com/watch?v=3VVhaTVsHn4

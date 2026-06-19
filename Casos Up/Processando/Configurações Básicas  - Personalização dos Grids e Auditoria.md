@@ -40,3 +40,4 @@ O banco de dados do ERP implementa um modelo rígido de auditoria que documenta 
     - _Cadastro de Produtos `[00:04:28]`:_ Rastreabilidade estrita sobre alterações de margem e precificação. O sistema expõe o usuário exato que elevou ou reduziu o preço de custo e de venda de um item (ex: alteração do custo de R$ 10,00 para R$ 20,50) `[00:04:40]`.
         
     - _Pedidos e Movimentações `[00:04:58]`:_ Registra a exclusão de itens de um pedido de venda, modificações de valores unitários ou concessão de descontos manuais, servindo como ferramenta de auditoria para prevenção de perdas.
+- **Nota de Apoio:** Se restarem dúvidas ou se necessitar de assistência visual durante a leitura deste guia operacional, poderá assistir ao vídeo demonstrativo passo a passo diretamente no YouTube através do seguinte link: https://www.youtube.com/watch?v=2Qvk8hKJW20&t=509s

@@ -49,3 +49,5 @@ O sistema implementa o modelo RBAC (_Role-Based Access Control_), isolando o ace
 - **Arquitetura de Perfis Corporativos (Herança de Direitos) `[00:06:38]`:** Para simplificar e agilizar o processo de implantação em novos terminais, o administrador cria perfis de cargos padronizados (ex: _Perfil Financeiro, Caixa, Estoquista, Vendedor_) `[00:06:44]`.
     
     - _Replicação Instantânea:_ Ao cadastrar um novo colaborador, o operador apenas seleciona e importa as diretrizes do perfil desejado, injetando instantaneamente toda a árvore de permissões correspondente de uma única vez `[00:07:45]`.
+
+**Nota de Apoio:** Se restarem dúvidas ou se necessitar de assistência visual durante a leitura deste guia operacional, poderá assistir ao vídeo demonstrativo passo a passo diretamente no YouTube através do seguinte link: https://www.youtube.com/watch?v=Q0cCN1rgEOQ&t=372s

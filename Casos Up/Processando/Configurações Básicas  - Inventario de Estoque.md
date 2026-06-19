@@ -50,3 +50,5 @@ Ao salvar e processar o inventário com a opção de ajuste ativada, o ERP execu
 ### 5. Destinação Fiscal (SPED / SINTEGRA) `[00:03:55]`
 
 Uma vez finalizado, o documento de inventário fica disponível no banco de dados como uma entidade estática. No momento da geração dos arquivos fiscais do período, o módulo do **SPED Fiscal** importa os dados desse inventário específico, processando e estruturando os registros necessários para a prestação de contas junto à SEFAZ `[00:04:03]`.
+
+**Nota de Apoio:** Se restarem dúvidas ou se necessitar de assistência visual durante a leitura deste guia operacional, poderá assistir ao vídeo demonstrativo passo a passo diretamente no YouTube através do seguinte link: https://www.youtube.com/watch?v=PSFIRDwYxF4

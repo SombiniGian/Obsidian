@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Modelo de Template/Template de Caso.md",
+                "file": "Processando/Divisão de conta através da divisão de itens na comanda.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Template de Caso"
+              "title": "Divisão de conta através da divisão de itens na comanda"
             }
           }
         ]
@@ -196,6 +196,21 @@
   },
   "active": "cefcef938b2716df",
   "lastOpenFiles": [
+    "Processando/Controle de Impressões.md",
+    "Processando/Emissão boletos a partir do Faturamento de um Pedido.md",
+    "Processando/Divisão de conta através da divisão de itens na comanda.md",
+    "Processando/Configurações Básicas Empresa e Permissão de Usuário.md",
+    "Processando/Configurações Básicas  - Pedido de Venda.md",
+    "Processando/Configurações Básicas  - Personalização dos Grids e Auditoria.md",
+    "Processando/Configurações Básicas  - Inventario de Estoque.md",
+    "Processando/Configuração SAT.md",
+    "Processando/Configuração INI.md",
+    "Processando/Configuração de Venda.md",
+    "Processando/Compra e Venda Com Lote e Serie.md",
+    "Processando/Cobrança Gerando Boletos e Nota Fiscal de Serviço Eletrônica (NFS-e)Sem título.md",
+    "Processando/Carga - Montagem, faturamento e algumas configurações.md",
+    "Processando/Cadastros - Saiba como fazer vários tipos de cadastros.md",
+    "Processando/Boletos Bancários - Configuração e formas de emissão.md",
     "Modelo de Template/Template de Caso.md",
     "Processando/Vários Locais de Estoque.md",
     "Processando/Restaurante (Parte 3) - Vendas através das Mesas e Comandas.md",
@@ -210,22 +225,7 @@
     "Projeto1/CASOS UP.md",
     "Processando/Visão Geral da Arquitetura e Módulos do ERPSem título.md",
     "Processando/Ordem de Serviço.md",
-    "Processando/Configuração SAT.md",
     "Projeto1/IMPRESSÃO.md",
-    "Projeto1/ERROS.md",
-    "Projeto1/erro.md",
-    "Projeto1/AO INICIAR.md",
-    "Processando/Instalação Up System.md",
-    "Processando/Configurações Básicas  - Personalização dos Grids e Auditoria.md",
-    "Processando/Frete por Região - Configurando o calculo das taxas.md",
-    "Processando/Boletos Bancários - Configuração e formas de emissão.md",
-    "Processando/Configuração de Venda.md",
-    "Processando/Configuração INI.md",
-    "Processando/Cadastros - Saiba como fazer vários tipos de cadastros.md",
-    "Processando/Controle de Impressões.md",
-    "Processando/Relatórios Online.md",
-    "Processando/Outras Movimentações de Estoque.md",
-    "Processando/Cobrança Gerando Boletos e Nota Fiscal de Serviço Eletrônica (NFS-e)Sem título.md",
     "Pasted image 20260521092057.png",
     "Projeto1/Fotos Resolução Produtos",
     "Projeto1",

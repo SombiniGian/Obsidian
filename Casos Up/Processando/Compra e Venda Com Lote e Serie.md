@@ -39,3 +39,4 @@ Após a finalização e liquidação da venda, o ERP Código UP injeta os dados 
 - **Concatenação de Código `[00:03:06]`:** O número do lote ou o número de série é impresso de forma concatenada junto ao código principal e descrição do produto (ex: `[CódigoProduto] - LOTE: [NúmeroLote]`) `[00:03:12]`.
     
 - **Validação de Garantia Legal `[00:03:20]`:** O layout de impressão do pedido pode ser customizado para exibir cláusulas de garantia logo abaixo do registro do lote (ex: _"Para acionar a garantia de 30 dias deste eletrônico, apresente este documento constando o Número de Série"_), servindo como documento de proteção jurídica para a empresa e clareza para o consumidor final
+**Nota de Apoio:** Se restarem dúvidas ou se necessitar de assistência visual durante a leitura deste guia operacional, poderá assistir ao vídeo demonstrativo passo a passo diretamente no YouTube através do seguinte link: https://www.youtube.com/watch?v=QbvBA4qiOMY

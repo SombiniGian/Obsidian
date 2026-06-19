@@ -90,3 +90,5 @@ O momento em que um boleto é cancelado determina o fluxo tributário e de custo
 - **Cancelamento Pré-Remessa:** Se o documento for cancelado enquanto estiver no status "Aberto" (antes de figurar em qualquer arquivo de remessa), o ERP simplesmente invalida o registro localmente. Como o banco nunca tomou conhecimento do título, **não há geração de tarifas de registro ou cancelamento** `[00:07:44]`.
     
 - **Cancelamento Pós-Remessa:** Se o boleto for cancelado após a confirmação de envio da remessa, o ERP altera o status do boleto e injeta automaticamente essa linha de cancelamento no próximo arquivo de remessa a ser gerado `[00:07:25]`. Isso é obrigatório para instruir o banco a dar baixa na cobrança registrada em sua base de dados, o que **sujeita a operação às tarifas de manutenção e baixa do contrato bancário** `[00:08:00]`.
+- 
+**Nota de Apoio:** Se restarem dúvidas ou se necessitar de assistência visual durante a leitura deste guia operacional, poderá assistir ao vídeo demonstrativo passo a passo diretamente no YouTube através do seguinte link: https://www.youtube.com/watch?v=8j3AqG6P2Hg&pp=0gcJCT4LAYcqIYzv
