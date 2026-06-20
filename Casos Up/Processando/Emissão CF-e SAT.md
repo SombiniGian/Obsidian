@@ -1,43 +1,84 @@
-Este módulo demonstra o fluxo operacional de **Emissão de Cupões Fiscais Eletrónicos (CF-e SAT)** no ERP Código UP, abordando desde a configuração da natureza de operação até à gestão de cancelamentos `[00:00:00]`. Ao contrário das notas fiscais tradicionais (NF-e/NFC-e), o sistema SAT destaca-se pela alta velocidade de resposta e pela gestão delegada ao hardware `[00:00:31]`.
+# Emissão de CF-e SAT (Modelo 59)
 
-### 1. Preparação da Natureza de Operação `[00:00:09]`
+## 1. Resumo Executivo
 
-Para que o sistema consiga processar o cupão, é necessário garantir que a natureza da operação esteja parametrizada com o modelo fiscal correto:
+Este guia descreve os protocolos de implementação e a rotina operacional para a emissão de Cupom Fiscal Eletrônico (CF-e) via hardware SAT no ERP Código UP. O processo diferencia-se das demais modalidades fiscais pela descentralização da numeração e alta performance de autorização via hardware.
 
-- **Modelo 59:** No cadastro de natureza de operação, deve selecionar-se especificamente o **Modelo 59 (SAT)** `[00:00:20]`.
+## 2. Configurações de Ambiente
+
+### 2.1. Natureza de Operação
+
+Define a regra fiscal que o sistema aplicará à transação.
+
+- **Caminho:** `Cadastros` > `Natureza de Operação`
     
-- **Diferença de Fluxo:** Diferente da NF-e ou NFC-e, onde o ERP gere a numeração e a autorização junto aos servidores do Sefaz, no SAT, o sistema apenas envia um XML reduzido para o equipamento `[00:00:41]`. É o próprio hardware SAT que processa a validação, gera o número do cupão e retorna os dados fiscais finais ao ERP `[00:00:51]`. Por isso, não há controlo de numeração (salto de números) na retaguarda do ERP para este modelo `[00:01:05]`.
+- **Campos Críticos:**
+    
+    - **Modelo:** Selecionar obrigatoriamente `59` (CF-e SAT).
+        
+    - **Controle de Numeração:** Não aplicável (o número é gerado pelo hardware SAT).
+        
+
+### 2.2. Configuração do Hardware SAT
+
+Parametrização da comunicação entre o ERP e o equipamento.
+
+- **Caminho:** `Documentos Fiscais` > `Configuração SAT`
+    
+- **Campos Críticos:**
+    
+    - **Tipo de Comunicação:** `Local` (DLL na mesma máquina) ou `Servidor` (via IP/Porta).
+        
+    - **DLL de Comunicação:** Caminho do diretório contendo a `.dll` específica fornecida pelo fabricante do equipamento.
+        
+    - **Código de Ativação:** Definido no momento da inicialização do hardware.
+        
+    - **Servidor SAT:** Caso o equipamento esteja em rede, configurar IP e Porta no executável de background (_Servidor SAT_).
+        
+
+## 3. Fluxo Operacional (PDV)
+
+### 3.1. Emissão de Cupom
+
+O processo de venda é otimizado para o modelo balcão.
+
+- **Caminho:** `Pedido de Venda` (Tipo: Balcão)
+    
+- **Fluxo de Ação:**
+    
+    1. Inserção de itens (código/leitura de barras).
+        
+    2. Seleção de forma de pagamento vinculada ao PDV.
+        
+    3. Finalização via comando de transmissão (processamento em milissegundos).
+        
+    4. Impressão automática via _Gerador de Relatórios_ ou via porta direta (configurável).
+        
+
+### 3.2. Cancelamento de Cupom
+
+Protocolo para anulação de documentos fiscais já autorizados.
+
+- **Caminho:** `Histórico de Vendas` > `Selecionar Cupom` > `Botão Cancelar`
+    
+- **Campos Críticos:**
+    
+    - **Justificativa:** Preenchimento obrigatório para auditoria fiscal interna.
+        
+    - **Confirmação:** O ERP envia comando de exclusão direta ao hardware SAT para registro do cancelamento.
+        
+
+## 4. Arquitetura de Comunicação e Segurança
+
+- **Monitoramento:** Utilize o "Servidor SAT" (minimizado na bandeja do Windows) para verificar logs operacionais, status de conexão e erros de comunicação (`IP`, `Porta`, `Status: Online/Offline`).
+    
+- **Assinatura:** A vinculação do CNPJ da _Software House_ e da empresa emitente ao hardware SAT deve ser realizada obrigatoriamente via portal Sefaz-SP antes do primeiro uso.
+    
+- **Auditoria:** Toda alteração de parâmetros ou cancelamento é registrada nos logs do sistema para garantir conformidade perante órgãos fiscalizadores.
     
 
-### 2. Modos de Transmissão (Local vs. Servidor) `[00:01:31]`
+## 5. Conclusão e Suporte
 
-O ERP permite alternar dinamicamente entre os modos de comunicação para adaptar-se a diferentes infraestruturas de rede:
+Esta estrutura garante alta disponibilidade na emissão de cupons fiscais, reduzindo a dependência de chamadas constantes aos servidores do Sefaz. Em caso de falhas de comunicação, verifique primeiro o status do "Servidor SAT" e o mapeamento da DLL.
 
-- **Modo Local:** O ERP comunica diretamente com a DLL do equipamento instalado na mesma estação de trabalho `[00:01:31]`, `[00:03:53]`. A transmissão é extremamente ágil `[00:02:01]`.
-    
-- **Modo Servidor:** Quando o equipamento SAT está fisicamente noutra máquina da rede, o ERP direciona os comandos para o "Servidor SAT" (aplicação _background_), que faz a ponte com o hardware `[00:02:31]`, `[00:03:10]`.
-    
-
-### 3. Fluxo de Emissão em Ponto de Venda (PDV) `[00:03:23]`
-
-O processo de venda segue um fluxo simplificado para agilizar o atendimento ao cliente:
-
-1. **Identificação do Modo:** No ecrã de vendas, um indicador visual mostra se o sistema está a comunicar via "Servidor" ou "Local" `[00:03:44]`.
-    
-2. **Lançamento e Pagamento:** O operador adiciona os itens e seleciona a forma de pagamento (ex: dinheiro) `[00:04:10]`, `[00:04:49]`.
-    
-3. **Transmissão e Impressão:** Ao gravar o pedido, o ERP transmite o XML para o SAT, que retorna a validação em milissegundos. A impressão do cupão ocorre automaticamente conforme o modelo de impressora configurado na retaguarda do sistema `[00:04:49]`, `[00:05:03]`.
-    
-
-### 4. Gestão de Cancelamentos `[00:06:38]`
-
-Caso seja necessário anular uma operação fiscal já emitida:
-
-- **Cancelamento Direto:** O utilizador acede ao histórico de vendas, seleciona o cupão desejado e clica em cancelar `[00:06:38]`.
-    
-- **Justificativa:** O sistema pode solicitar (opcionalmente) um motivo para o cancelamento, que é registado para fins de auditoria interna `[00:06:46]`.
-    
-- **Confirmação via Hardware:** O ERP envia o comando de cancelamento ao equipamento SAT. O emulador (ou hardware real) processa a anulação e atualiza o estado fiscal do cupão imediatamente no sistema `[00:06:58]`.
-    
-
-ℹ️ **Nota de Apoio:** Se restarem dúvidas ou se necessitar de assistência visual durante a leitura deste guia operacional, poderá assistir ao vídeo demonstrativo passo a passo diretamente no YouTube através do seguinte link: [Assista ao vídeo no YouTube](https://www.youtube.com/watch?v=elcnR9FsFyY&t=53s).
+**Consulte o vídeo tutorial para detalhes adicionais de visualização:** [Assista ao vídeo: Emissão CF-e SAT](https://www.youtube.com/watch?v=elcnR9FsFyY&t=53s)

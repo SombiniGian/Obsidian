@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Processando/Configurações Básicas  - Pedido de Venda.md",
+                "file": "Processando/Emissão CF-e SAT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Configurações Básicas  - Pedido de Venda"
+              "title": "Emissão CF-e SAT"
             }
           }
         ]
@@ -196,6 +196,7 @@
   },
   "active": "cefcef938b2716df",
   "lastOpenFiles": [
+    "Processando/Configurações Básicas  - Pedido de Venda.md",
     "Processando/Configuração INI.md",
     "Processando/Vários Locais de Estoque.md",
     "Processando/Restaurante - Controle de Produção.md",
@@ -213,7 +214,6 @@
     "Processando/Divisão de conta através da divisão de itens na comanda.md",
     "Processando/Controle de Impressões.md",
     "Processando/Configurações Básicas Empresa e Permissão de Usuário.md",
-    "Processando/Configurações Básicas  - Pedido de Venda.md",
     "Processando/Configurações Básicas  - Personalização dos Grids e Auditoria.md",
     "Processando/Configurações Básicas  - Inventario de Estoque.md",
     "Processando/Configuração SAT.md",
