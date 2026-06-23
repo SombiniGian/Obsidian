@@ -1,6 +1,4 @@
-Markdown
 
-````
 ---
 id: CASO-002
 link: https://www.youtube.com/watch?v=2Qvk8hKJW20
@@ -8,6 +6,7 @@ setor: Suporte, Treinamento, Desenvolvimento
 modulo: Configurações Básicas
 tags: [customizacao-grids, auditoria-sistema, cadastros-unificados, layouts, relatorios]
 data_criacao: 2026-06-23
+
 ---
 
 # Configurações Básicas — Personalização de Grids, Layouts e Auditoria
