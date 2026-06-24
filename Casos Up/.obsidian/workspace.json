@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Processando/Configurações Básicas (Parte 2) - Personalização dos Grids e Auditoria.md",
+                "file": "Processando/Emissão boletos a partir do Faturamento de um Pedido.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Configurações Básicas (Parte 2) - Personalização dos Grids e Auditoria"
+              "title": "Emissão boletos a partir do Faturamento de um Pedido"
             }
           }
         ]
@@ -196,8 +196,11 @@
   },
   "active": "cefcef938b2716df",
   "lastOpenFiles": [
-    "Modelo de Template/Template de Caso.md",
+    "Processando/Configurações Básicas (Parte 4) - Inventario de Estoque.md",
+    "Processando/Emissão boletos a partir do Faturamento de um Pedido.md",
+    "Processando/Configurações Básicas (Parte 3) - Pedido de Venda.md",
     "Processando/Configurações Básicas (Parte 2) - Personalização dos Grids e Auditoria.md",
+    "Modelo de Template/Template de Caso.md",
     "Processando/Configurações Básicas (Parte 1) - Empresa e Permissões de Usuário.md",
     "Processando/Ordem de Serviço -  Garantia e NFe de Produtos.md",
     "Processando/Sem título",
@@ -220,9 +223,6 @@
     "Processando/Emissão boletos a partir do Faturamento de um Pedido.md",
     "Processando/Divisão de conta através da divisão de itens na comanda.md",
     "Processando/Controle de Impressões.md",
-    "Processando/Configurações Básicas Empresa e Permissão de Usuário.md",
-    "Processando/Configurações Básicas  - Personalização dos Grids e Auditoria.md",
-    "Processando/Configurações Básicas  - Inventario de Estoque.md",
     "Projeto1/Fotos Resolução Produtos/Erro de Conexão ao abrir o Sistema.png",
     "Projeto1/Fotos Resolução Produtos/enviar desconto NF.png",
     "Projeto1/Fotos Resolução Produtos/CAMINHO_CERTIFICADO.png",
