@@ -77,4 +77,6 @@ Quando a falha de transmissão não está associada a erros cadastrais, mas sim 
 3. Insira obrigatoriamente a justificativa de entrada em contingência no campo de texto apresentado pelo sistema. 
 4. Salve as alterações e retorne à tela de faturamento. 
 5. Selecione as notas e clique em **Transmitir**. O XML será direcionado para a estrutura do servidor virtual de contingência, permitindo a liberação imediata do tráfego das mercadorias. 
-[!tip] Retorno à Operação Padrão > O modo de contingência é um regime de exceção temporário. Assim que a estabilidade do servidor principal da SEFAZ estadual for reestabelecida, o usuário deve acessar novamente a tela de configurações e reverter o parâmetro para **1 - Normal**, garantindo a conformidade e evitando rejeições por uso indevido da estrutura virtual.
+
+>[!tip] Retorno à Operação Padrão > O modo de contingência é um regime de exceção temporário. Assim que a estabilidade do servidor principal da SEFAZ estadual for reestabelecida, o usuário deve acessar novamente a tela de configurações e reverter o parâmetro para **1 - Normal**, garantindo a conformidade e evitando rejeições por uso indevido da estrutura virtual.
+
