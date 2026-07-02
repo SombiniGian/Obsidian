@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Processando/Configuração de Venda.md",
+                "file": "Processando/Configuração para cadastros fiscais da empresa.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Configuração de Venda"
+              "title": "Configuração para cadastros fiscais da empresa"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 449.5
+    "width": 449.5,
+    "collapsed": true
   },
   "right": {
     "id": "b41576a2e1357bd4",
@@ -179,7 +180,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,8 +198,11 @@
   },
   "active": "cefcef938b2716df",
   "lastOpenFiles": [
-    "Processando/Vários Locais de Estoque.md",
+    "Processando/Imagens Documentação/Divisão de conta através da divisão de itens na comanda.png",
+    "Processando/Configuração para cadastros fiscais da empresa.md",
+    "Processando/Venda PDV transmissão NFC-e.md",
     "Processando/Configuração de Venda.md",
+    "Processando/Vários Locais de Estoque.md",
     "Processando/Restaurante - Controle de Produção.md",
     "Processando/Precificação dos produtos.md",
     "Processando/PDV Novo totalmente personalizável.md",
@@ -219,11 +224,7 @@
     "Processando/Carga - Montagem, faturamento e algumas configurações.md",
     "Processando/Cadastros - Saiba como fazer vários tipos de cadastros.md",
     "Processando/Boletos Bancários - Configuração e formas de emissão.md",
-    "Plano de Contas Contábil.md",
-    "Processando/Configuração INI.md",
-    "Processando/Ordem de Serviço -  Garantia e NFe de Produtos.md",
     "Processando/Imagens Documentação/Frete por Região - Configurando o calculo das taxas.png",
-    "Processando/Imagens Documentação/Divisão de conta através da divisão de itens na comanda.png",
     "Processando/Imagens Documentação",
     "Processando/Imagens Documentação/Pasted image 20260624154744.png",
     "Processando/Sem título",
