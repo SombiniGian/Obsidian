@@ -35,7 +35,7 @@ O comportamento inicial do executável do ERP é governado por um arquivo de con
 
 ### Parâmetros Internos Fundamentais
 * **Caminho do Banco de Dados:** String de conexão que define o servidor e o path absoluto do arquivo de banco de dados (ex: `192.168.1.100:C:\Automacao\Dados\SISTEMA.FDB`).
-* **Caminho da DLL do Firebird:** Aponta explicitamente o driver cliente do banco de dados relacional (ex: `gds32.dll` ou `fbclient.dll`) utilizado na comunicação.
+* **Caminho da DLL do Firebird:** Aponta explicitamente o driver cliente do banco de dados relacional (`fbclient.dll`) utilizado na comunicação.
 * **Tipo da Estação:** Flag que instrui o executável sobre qual interface deve ser renderizada pós-autenticação.
 
 ---
