@@ -80,7 +80,7 @@ EMPRESA
 - Atenção no cadastro CRT - Código Regime Tributário pois irá impactar diretamente no cadastro do produto.
 
 - Sendo tributação normal será CST(lucro real e lucro presumido),
-- Sendo simples nacional terá o CSOSN: excesso de sublimite, parecido com o lucro presumido portanto também usará o CST.[[c]](#cmnt3)
+- Sendo simples nacional terá o CSOSN: excesso de sublimite, parecido com o lucro presumido portanto também usará o CST.
 
 ### DOCUMENTOS ELETRÔNICOS
 
