@@ -11,6 +11,7 @@ tags:
 aliases:
   - DOCUP-ANALISE-SPRINT-0
   - Análise Sprint 0
+resumo: "Análise do documento monolítico original (Sprint 0) — mapeamento de 59 seções para os 32 arquivos atuais."
 data_criacao: 2026-06-24
 ---
 
