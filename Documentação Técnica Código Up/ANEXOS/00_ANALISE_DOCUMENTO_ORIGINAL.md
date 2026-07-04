@@ -1,3 +1,19 @@
+---
+id: DOCUP-032
+setor: Documentação Técnica
+modulo: Documentação Técnica
+categoria: anexos
+tags:
+  - sprint-0
+  - analise
+  - mapeamento-secoes
+  - decisoes-estrutura
+aliases:
+  - DOCUP-ANALISE-SPRINT-0
+  - Análise Sprint 0
+data_criacao: 2026-06-24
+---
+
 # Análise do Documento Original — Sprint 0
 
 > **Documento analisado:** `ProcessandoDocOficialUp/Documentação Técnica Código Up.md`
