@@ -18,7 +18,8 @@ O sistema permite desvincular o momento da venda do momento da emissão fiscal, 
 A rotina de devolução foi desenhada para ser executada diretamente na frente de caixa (PDV) ou no retaguarda, garantindo a reintegração do estoque e o estorno contábil.
 
 * **Acesso Facilitado:** A devolução pode ser acionada diretamente na tela Balcão/PDV. O operador busca o pedido original e o sistema carrega o espelho da venda.
-* **Devolução Total ou Parcial:** * O sistema lista todos os itens do pedido original.
+* **Devolução Total ou Parcial:**
+    * O sistema lista todos os itens do pedido original.
     * O operador pode selecionar itens específicos para devolução e ajustar a *quantidade exata* (ex: O cliente comprou 6 unidades, mas está devolvendo apenas 4. O sistema recalcula o estorno financeiro proporcional a essas 4 unidades).
 * **Estorno de Comissões:** A devolução de um item aciona um gatilho financeiro que processa automaticamente o estorno ou o recálculo da comissão do vendedor associado àquela venda original.
 

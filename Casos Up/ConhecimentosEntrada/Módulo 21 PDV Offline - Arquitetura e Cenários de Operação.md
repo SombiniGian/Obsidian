@@ -20,11 +20,13 @@ O **PDV Offline** é um ponto de venda autônomo que opera com um banco de dados
 O sistema permite diferentes arquiteturas dependendo da necessidade do cliente, seja para uma única empresa ou multiempresa.
 
 ### Cenário A: Multiempresa (Locais Distintos)
+
 * Ideal para cadeias (ex: restaurantes) em que cada CNPJ está em um endereço físico diferente.
 * Cada unidade possui seu servidor offline (banco de dados local).
 * A nuvem atua como orquestrador e centralizador de dados.
 
 ### Cenário B: Supermercado (Alta Disponibilidade)
+
 * Objetivo: Evitar a parada total em caso de falha na rede interna.
 * Cada caixa atua como um "servidor" independente.
 * Se o servidor central cair, os caixas individuais continuam vendendo. Se um computador estragar, os outros 9 permanecem operacionais.

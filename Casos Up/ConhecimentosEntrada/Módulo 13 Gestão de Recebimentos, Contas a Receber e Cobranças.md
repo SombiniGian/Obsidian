@@ -11,7 +11,9 @@ O módulo de Recebimentos atua como o repositório central de todas as entradas 
 * **Rastreabilidade e Vínculos:** Cada registro de recebimento mantém um cordão umbilical com sua origem. Através da opção **Visualizar Venda**, o analista financeiro consegue auditar exatamente qual pedido, produtos ou serviços originaram aquela cobrança, sem precisar sair da tela financeira.
 
 ### 1.1. Estrutura de Dados do Título
+
 Um título a receber comporta múltiplas dimensões de controle gerencial:
+
 * **Devedor (Cliente):** Entidade atrelada à dívida.
 * **Plano de Contas e Centro de Custo:** Classificação da receita para posterior composição do DRE e relatórios de fluxo de caixa.
 * **Acréscimos Legais:** Parametrização de Multas e Juros por atraso.
@@ -52,5 +54,6 @@ Ferramenta vital para a recuperação de crédito e gestão de inadimplência. O
 ## 5. Auditoria Financeira
 
 Seguindo o padrão arquitetônico do ERP, a tela de Recebimentos possui auditoria rígida.
+
 * Qualquer alteração em datas de vencimento, valores de desconto concedidos ou mudança de status é registrada nos logs.
 * O log captura o "Estado Anterior", "Estado Novo", a estampa de tempo (Data/Hora) e o ID do usuário, garantindo *compliance* total contra fraudes internas.

@@ -1,7 +1,7 @@
 # Mapa de Sinônimos de Tags
 
 > Documento de referência para padronização de tags entre `Documentação Técnica Código Up\` e `Casos Up\Processando\`.
-> Última atualização: 2026-07-04
+> Última atualização: 2026-07-05
 
 ## Canônicas vs Variantes
 
@@ -10,18 +10,59 @@
 | `nfe` | `nf-e`, `Nf-e`, `NFe` |
 | `nfce` | `nfc-e`, `NFC-e` |
 | `nfs-e` | `nfse`, `NFS-e` |
+| `ct-e` | `cte`, `CT-e` |
+| `ct-e-os` | `cte-os`, `CT-e OS` |
+| `mdf-e` | `mdfe`, `MDF-e` |
+| `gnre` | `GNRE` |
 | `controle-estoque` | `controle-de-estoque`, `gerenciamento-de-estoque` |
 | `ordem-servico` | `ordem-de-servico` |
+| `ordem-producao` | `op` |
 | `cfop` | `CFOP` |
+| `cst` | `CST` |
+| `csosn` | `CSOSN` |
 | `natureza-operacao` | `natureza-de-operacao` |
 | `pdv` | `PDV` |
 | `pdv-offline` | `pdv-off` |
+| `pdv-super` | `PDV Super`, `pdv-enxuto` |
 | `grid-personalizacao` | `personalizacao-grid` |
 | `customizacao-layouts` | `customizacao-layout`, `layout-customizado` |
+| `campos-personalizados` | `campos-extras` |
 | `formas-de-pagamento` | `forma-pagamento` |
+| `tef` | `TEF` |
+| `pos` | `POS` |
+| `smart-pos` | `smartpos`, `tef-embarcado` |
 | `certificado-digital` | `certificado-A1`, `e-CNPJ` |
+| `autxml` | `aut-xml`, `autorizacao-download` |
 | `contabilidade` | `contador`, `escrituracao` |
 | `xml` | `XML` |
+| `manifesto-destinatario` | `manifestacao-destinatario` |
+| `sped` | `SPED` |
+| `sintegra` | `SINTEGRA` |
+| `bordero-recebimento` | `bordero-de-recebimento` |
+| `bordero-negociacao` | `bordero-de-negociacao` |
+| `bordero-cobranca` | `bordero-de-cobranca` |
+| `trigger-engine` | `motor-gatilhos`, `triggers-engine` |
+| `white-label` | `whitelabel`, `rebranding` |
+| `innosetup` | `inno-setup`, `instalador-personalizado` |
+| `flutter` | `Flutter` |
+| `delphi` | `Delphi` |
+| `firebird` | `Firebird` |
+| `comissao` | `comissionamento` |
+| `consignado` | `venda-consignada` |
+| `entrega-futura` | `entrega-programada` |
+| `controle-carga` | `romaneio`, `carga-distribuicao` |
+| `frota` | `controle-frota` |
+| `almoxarifado` | `consumo-interno` |
+| `inventario` | `contagem-estoque` |
+| `compras` | `pedido-compra` |
+| `cotacao` | `cotacao-compra`, `bidding` |
+| `recebimento` | `contas-receber` |
+| `pagamento` | `contas-pagar` |
+| `cheque` | `controle-cheques` |
+| `caixa` | `controle-caixa`, `fechamento-caixa` |
+| `boleto` | `boleto-bancario` |
+| `cartao` | `cartao-credito`, `conciliacao-cartao` |
+| `pix` | `PIX` |
 
 ## Convenção de tags
 
@@ -35,6 +76,11 @@
 - Ao mesclar documentos novos vindos de `Casos Up\Processando\`, normalizar tags usando esta tabela antes de adicionar ao arquivo final.
 - Tags canônicas são imutáveis: nunca criar uma variante nova se já existe canônica equivalente.
 - Para propor uma nova tag canônica, criar issue/discussão antes de aplicar em massa.
+
+## Histórico de Ampliações
+
+- **Sprint 3 (2026-07-04):** Construção inicial da tabela com base em auditoria de 32 documentos.
+- **Sprint 4 (2026-07-05):** Ampliação pós-merge dos Aulões (24 módulos). Adicionadas tags de: documentos eletrônicos de transporte (`ct-e`, `ct-e-os`, `mdf-e`, `gnre`), operação de PDV (`pdv-super`, `smart-pos`), automação (`trigger-engine`, `autxml`), manifests e obrigações acessórias (`manifesto-destinatario`, `sped`, `sintegra`), borderôs, infraestrutura (`flutter`, `delphi`, `firebird`, `innosetup`, `white-label`), supply chain (`compras`, `cotacao`, `controle-carga`), financeiro (`bordero-recebimento`, `bordero-negociacao`, `bordero-cobranca`, `caixa`, `cheque`, `boleto`, `cartao`, `pix`, `recebimento`, `pagamento`, `comissao`), operação (`consignado`, `entrega-futura`, `frota`, `almoxarifado`, `inventario`).
 
 ## Auditoria
 

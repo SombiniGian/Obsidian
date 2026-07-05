@@ -10,7 +10,7 @@ O sistema centraliza todas as notas fiscais de entrada na tela **Documentos Fisc
     * **Produtos:** O vínculo é feito através de descrições, código de barras (EAN) ou código do fornecedor. O sistema aprende o relacionamento, evitando que o operador precise realizar o vínculo manual em compras futuras.
     * **Financeiro:** O sistema extrai as parcelas de pagamento do XML e as insere automaticamente no Contas a Pagar.
     * **Custos:** Permite a precificação imediata (ver seção abaixo).
-* **Manifesto do Destinatário:** Ferramenta obrigatória para garantir o controle fiscal das compras. O sistema consulta diretamente a Sefaz para baixar notas emitidas contra o CNPJ da empresa. 
+* **Manifesto do Destinatário:** Ferramenta obrigatória para garantir o controle fiscal das compras. O sistema consulta diretamente a Sefaz para baixar notas emitidas contra o CNPJ da empresa.
     * O operador pode realizar a consulta, manifestar (Ciência/Confirmação) e realizar o download dos XMLs em lote, mantendo a contabilidade sempre atualizada.
 
 ---
@@ -40,7 +40,7 @@ Para evitar erros recorrentes, o sistema permite a automação das regras tribut
 
 O fechamento fiscal é automatizado através da geração de registros padronizados para a contabilidade.
 
-* **SPED Fiscal (EFD ICMS/IPI) e Contribuições:** O sistema gera os blocos necessários conforme a legislação vigente. 
+* **SPED Fiscal (EFD ICMS/IPI) e Contribuições:** O sistema gera os blocos necessários conforme a legislação vigente.
     * **Registro C170:** O sistema gera especificamente este registro para contadores que precisam validar itens dentro de arquivos estruturados, contornando erros comuns de estrutura encontrados em validadores padrão.
     * **Unificação (Matriz/Filial):** O módulo possui um unificador para empresas que possuem matriz e filiais. Ele consolida os arquivos de forma que a contabilidade receba um único conjunto de dados coerente.
 * **Plano de Contas SPED:** Configuração básica onde se vinculam as naturezas de operações e tipos de documentos às contas contábeis equivalentes. Uma vez configurado, o sistema automatiza o preenchimento dos registros do SPED mensalmente.

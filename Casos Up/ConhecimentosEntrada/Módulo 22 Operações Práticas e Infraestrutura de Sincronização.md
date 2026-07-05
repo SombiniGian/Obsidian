@@ -10,13 +10,17 @@ A instalação do PDV Offline é segmentada em duas funções distintas dentro d
 * **Estações (Terminais):** Máquinas adicionais utilizadas para realizar as vendas. Elas não possuem banco de dados próprio, sendo configuradas para apontar diretamente para o *Servidor Local*.
 * **Segregação de Cargas:** O sistema permite definir qual computador será responsável por processar a carga de dados. Essa configuração deve ser centralizada para evitar conflitos de atualização e garantir que o *Servidor Local* mantenha o *dataset* sempre atualizado a partir da nuvem.
 
+---
+
 ## 2. Independência e Autonomia
 
 O principal valor desta arquitetura é a capacidade de sobrevivência do ponto de venda.
 
-* **Vida Autônoma:** Uma vez configurado como PDV Offline, o terminal possui uma base de dados completa (produtos, preços, clientes). 
+* **Vida Autônoma:** Uma vez configurado como PDV Offline, o terminal possui uma base de dados completa (produtos, preços, clientes).
 * **Resiliência a Falhas:** Caso ocorra a queda da rede (corte do cabo de rede ou falha na infraestrutura de internet), o sistema não interrompe a operação. O PDV continua permitindo vendas, devoluções e recebimentos normalmente, pois consulta exclusivamente o banco local.
 * **Isolamento de Erros:** Em cenários como supermercados com múltiplos caixas, a falha de uma estação (ou a interrupção do servidor central) não paralisa as demais. Cada PDV Offline preserva sua autonomia, evitando o efeito cascata de parada de operação.
+
+---
 
 ## 3. Lógica de Replicação de Dados
 
