@@ -1,1 +1,8 @@
-{}
+{
+  "cssTheme": "",
+  "baseFontSize": 16,
+  "translucency": false,
+  "enabledCssSnippets": [
+    "graph-improvements"
+  ]
+}

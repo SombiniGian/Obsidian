@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "0dd5057977b50082",
+        "id": "7abd2c246d4d31ce",
         "type": "tabs",
         "children": [
           {
-            "id": "192bac5003bf59b8",
+            "id": "9e57ab5e42efc757",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Visualização em gráfico"
+              "icon": "lucide-file",
+              "title": "Nova aba"
             }
           }
         ]
@@ -176,13 +176,14 @@
       "daily-notes:Abrir a nota de hoje": false,
       "templates:Inserir modelo": false,
       "bases:Criar nova base": false,
-      "command-palette:Abrir paleta de comandos": false
+      "command-palette:Abrir paleta de comandos": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
   "active": "e8c61d403f72b663",
   "lastOpenFiles": [
-    "AGENTS.md",
     "Documentação Técnica Código Up/00_SUMÁRIO_E_INDÍCES/00.1_SUMÁRIO_GERAL.md",
+    "AGENTS.md",
     "Documentação Técnica Código Up/02_OPERACOES_DIARIAS/02.1_CADASTRO_PRODUTOS.md",
     "Documentação Técnica Código Up/01_CONFIGURACAO_INICIAL/01.3_CERTIFICADO_DIGITAL.md",
     "Documentação Técnica Código Up/01_CONFIGURACAO_INICIAL/01.2_DOCUMENTOS_ELETRONICOS.md",
