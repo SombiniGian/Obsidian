@@ -3,6 +3,9 @@
   "baseFontSize": 16,
   "translucency": false,
   "enabledCssSnippets": [
-    "graph-improvements"
-  ]
+    "graph-improvements",
+    "obsidian-default-theme"
+  ],
+  "accentColor": "",
+  "theme": "obsidian"
 }

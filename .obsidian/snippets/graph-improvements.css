@@ -1,57 +1,549 @@
-.graph-view {
-  background: radial-gradient(
-    ellipse at center,
-    var(--background-primary) 0%,
-    var(--background-secondary) 100%
-  );
+/* @settings
+
+name: Graph Improvements
+id: graph-improvements
+settings:
+
+  -
+    id: heading-background
+    title: Background
+    type: heading
+    level: 1
+    collapsed: true
+  -
+    id: graph-background-type
+    title: Background Type
+    type: variable-select
+    default: radial
+    options:
+      -
+        label: Radial Gradient
+        value: radial
+      -
+        label: Linear Gradient
+        value: linear
+      -
+        label: Solid Color
+        value: solid
+  -
+    id: graph-background-start
+    title: Background Start (Center)
+    type: variable-themed-color
+    opacity: false
+    format: hex
+    default-light: '#ffffff'
+    default-dark: '#1e1e1e'
+  -
+    id: graph-background-end
+    title: Background End (Edges)
+    type: variable-themed-color
+    opacity: false
+    format: hex
+    default-light: '#eef0f4'
+    default-dark: '#0f0f0f'
+
+  -
+    id: heading-nodes
+    title: Nodes
+    type: heading
+    level: 1
+    collapsed: true
+  -
+    id: graph-node-radius
+    title: Node Radius
+    type: variable-number-slider
+    default: 5
+    min: 2
+    max: 14
+    step: 0.5
+  -
+    id: graph-node-stroke-width
+    title: Node Stroke Width
+    type: variable-number-slider
+    default: 2
+    min: 0
+    max: 6
+    step: 0.5
+  -
+    id: graph-node-fill
+    title: Node Fill (Default — overridden by Obsidian tag/folder colors)
+    type: variable-themed-color
+    opacity: false
+    format: hex
+    variable-name: --graph-node-color
+    default-light: '#9ca3af'
+    default-dark: '#6b7280'
+  -
+    id: graph-node-stroke
+    title: Node Stroke (Outline)
+    type: variable-themed-color
+    opacity: false
+    format: hex
+    variable-name: --graph-node-color-stroke
+    default-light: '#ffffff'
+    default-dark: '#e5e7eb'
+  -
+    id: graph-node-shadow-opacity
+    title: Node Shadow Opacity
+    type: variable-number-slider
+    default: 0.18
+    min: 0
+    max: 0.6
+    step: 0.02
+
+  -
+    id: heading-nodes-states
+    title: Node States
+    type: heading
+    level: level-2
+    collapsed: true
+  -
+    id: graph-node-hover-glow
+    title: Hover Glow Color
+    type: variable-themed-color
+    opacity: false
+    format: hex
+    default-light: '#7a6ae6'
+    default-dark: '#b9adff'
+  -
+    id: graph-node-hover-radius
+    title: Hover Radius Multiplier
+    type: variable-number-slider
+    default: 1.3
+    min: 1
+    max: 2
+    step: 0.05
+  -
+    id: graph-node-active-stroke
+    title: Active Node Stroke
+    type: variable-themed-color
+    opacity: false
+    format: hex
+    default-light: '#ff8c42'
+    default-dark: '#ffb066'
+  -
+    id: graph-node-active-stroke-width
+    title: Active Node Stroke Width
+    type: variable-number-slider
+    default: 3
+    min: 1
+    max: 8
+    step: 0.5
+  -
+    id: graph-faded-opacity
+    title: Faded Node Opacity
+    type: variable-number-slider
+    default: 0.18
+    min: 0.05
+    max: 0.5
+    step: 0.01
+
+  -
+    id: heading-edges
+    title: Edges (Links)
+    type: heading
+    level: 1
+    collapsed: true
+  -
+    id: graph-edge-color
+    title: Edge Color
+    type: variable-themed-color
+    opacity: true
+    format: rgb
+    variable-name: --graph-line-color
+    default-light: '#1f29371f'
+    default-dark: '#e5e7eb1f'
+  -
+    id: graph-edge-stroke-width
+    title: Edge Stroke Width
+    type: variable-number-slider
+    default: 1.25
+    min: 0.5
+    max: 4
+    step: 0.25
+  -
+    id: graph-edge-highlighted-color
+    title: Highlighted Edge Color
+    type: variable-themed-color
+    opacity: true
+    format: rgb
+    variable-name: --graph-line-active-color
+    default-light: '#705dcfff'
+    default-dark: '#a89affff'
+  -
+    id: graph-edge-highlighted-width
+    title: Highlighted Edge Width
+    type: variable-number-slider
+    default: 2.25
+    min: 1
+    max: 5
+    step: 0.25
+  -
+    id: graph-edge-faded-opacity
+    title: Faded Edge Opacity
+    type: variable-number-slider
+    default: 0.08
+    min: 0.02
+    max: 0.3
+    step: 0.01
+
+  -
+    id: heading-labels
+    title: Labels
+    type: heading
+    level: 1
+    collapsed: true
+  -
+    id: graph-label-color
+    title: Label Text Color
+    type: variable-themed-color
+    opacity: false
+    format: hex
+    variable-name: --graph-text-color
+    default-light: '#111827'
+    default-dark: '#f9fafb'
+  -
+    id: graph-label-stroke-color
+    title: Label Halo Color
+    type: variable-themed-color
+    opacity: false
+    format: hex
+    variable-name: --graph-text-color-stroke
+    default-light: '#ffffff'
+    default-dark: '#0a0a0a'
+  -
+    id: graph-label-stroke-width
+    title: Label Halo Width
+    type: variable-number-slider
+    default: 4
+    min: 0
+    max: 8
+    step: 0.5
+  -
+    id: graph-label-font-size
+    title: Label Font Size
+    type: variable-number-slider
+    default: 13
+    min: 8
+    max: 18
+    step: 0.5
+  -
+    id: graph-label-font-weight
+    title: Label Font Weight
+    type: variable-select
+    default: 500
+    options:
+      -
+        label: Light (300)
+        value: 300
+      -
+        label: Regular (400)
+        value: 400
+      -
+        label: Medium (500)
+        value: 500
+      -
+        label: Semibold (600)
+        value: 600
+      -
+        label: Bold (700)
+        value: 700
+
+  -
+    id: heading-controls
+    title: Controls Panel
+    type: heading
+    level: 1
+    collapsed: true
+  -
+    id: graph-controls-background
+    title: Controls Background
+    type: variable-themed-color
+    opacity: true
+    format: rgb
+    default-light: '#ffffffd9'
+    default-dark: '#1e1e1ed9'
+  -
+    id: graph-controls-border
+    title: Controls Border
+    type: variable-themed-color
+    opacity: false
+    format: hex
+    default-light: '#dddddd'
+    default-dark: '#333333'
+  -
+    id: graph-controls-blur
+    title: Controls Backdrop Blur
+    type: variable-number-slider
+    default: 10
+    min: 0
+    max: 24
+    step: 1
+  -
+    id: graph-controls-radius
+    title: Controls Border Radius
+    type: variable-number-slider
+    default: 10
+    min: 0
+    max: 20
+    step: 1
+
+  -
+    id: heading-project-groups
+    title: Project Groups
+    description: Color overrides applied when Obsidian graph view is set to "color groups" (Folders). Each color matches a top-level folder in your vault.
+    type: heading
+    level: 1
+    collapsed: true
+  -
+    id: graph-group-nfe
+    title: NF-e (Nota Fiscal Eletrônica)
+    type: variable-themed-color
+    opacity: false
+    format: hex
+    default-light: '#3b82f6'
+    default-dark: '#60a5fa'
+    variable-name: color-group-1
+  -
+    id: graph-group-nfce
+    title: NFC-e (Nota Fiscal ao Consumidor)
+    type: variable-themed-color
+    opacity: false
+    format: hex
+    default-light: '#10b981'
+    default-dark: '#34d399'
+    variable-name: color-group-2
+  -
+    id: graph-group-sat
+    title: SAT (Sistema Autenticador)
+    type: variable-themed-color
+    opacity: false
+    format: hex
+    default-light: '#f59e0b'
+    default-dark: '#fbbf24'
+    variable-name: color-group-3
+  -
+    id: graph-group-mfe
+    title: MFE (Módulo Fiscal Eletrônico)
+    type: variable-themed-color
+    opacity: false
+    format: hex
+    default-light: '#ef4444'
+    default-dark: '#f87171'
+    variable-name: color-group-4
+  -
+    id: graph-group-cst
+    title: CST (Código Situação Tributária)
+    type: variable-themed-color
+    opacity: false
+    format: hex
+    default-light: '#8b5cf6'
+    default-dark: '#a78bfa'
+    variable-name: color-group-5
+  -
+    id: graph-group-csosn
+    title: CSOSN (Simples Nacional)
+    type: variable-themed-color
+    opacity: false
+    format: hex
+    default-light: '#ec4899'
+    default-dark: '#f472b6'
+    variable-name: color-group-6
+  -
+    id: graph-group-cfop
+    title: CFOP (Código Fiscal de Operações)
+    type: variable-themed-color
+    opacity: false
+    format: hex
+    default-light: '#06b6d4'
+    default-dark: '#22d3ee'
+    variable-name: color-group-7
+
+*/
+
+.theme-light {
+  --graph-background-start: #ffffff;
+  --graph-background-end: #f3f4f6;
+
+  --graph-node-color: #9ca3af;
+  --graph-node-color-stroke: #ffffff;
+  --graph-line-color: rgba(31, 41, 55, 0.12);
+  --graph-line-active-color: rgba(112, 93, 207, 0.95);
+  --graph-node-active-color: #ea580c;
+  --graph-text-color: #111827;
+  --graph-text-color-stroke: #ffffff;
+
+  --graph-node-shadow-color: rgba(31, 41, 55, 0.18);
+  --graph-node-hover-glow: #705dcf;
+  --graph-controls-background: rgba(255, 255, 255, 0.85);
+  --graph-controls-border: #d1d5db;
+
+  --color-group-1: #3b82f6;
+  --color-group-2: #10b981;
+  --color-group-3: #f59e0b;
+  --color-group-4: #ef4444;
+  --color-group-5: #8b5cf6;
+  --color-group-6: #ec4899;
+  --color-group-7: #06b6d4;
 }
 
-.graph-view .nodes > .node {
-  stroke-width: 2.5px;
-  transition:
-    stroke-width 120ms ease,
-    filter 120ms ease;
+.theme-dark {
+  --graph-background-start: #1a1a1a;
+  --graph-background-end: #0a0a0a;
+
+  --graph-node-color: #6b7280;
+  --graph-node-color-stroke: #e5e7eb;
+  --graph-line-color: rgba(229, 231, 235, 0.12);
+  --graph-line-active-color: rgba(167, 139, 250, 0.95);
+  --graph-node-active-color: #fb923c;
+  --graph-text-color: #f9fafb;
+  --graph-text-color-stroke: #0a0a0a;
+
+  --graph-node-shadow-color: rgba(0, 0, 0, 0.6);
+  --graph-node-hover-glow: #a78bfa;
+  --graph-controls-background: rgba(26, 26, 26, 0.85);
+  --graph-controls-border: #374151;
+
+  --color-group-1: #60a5fa;
+  --color-group-2: #34d399;
+  --color-group-3: #fbbf24;
+  --color-group-4: #f87171;
+  --color-group-5: #a78bfa;
+  --color-group-6: #f472b6;
+  --color-group-7: #22d3ee;
 }
-.graph-view .nodes > .node:hover {
-  stroke-width: 4px;
-  filter: drop-shadow(0 0 4px var(--interactive-accent));
+
+.graph-view {
+  background:
+    radial-gradient(
+      ellipse at center,
+      var(--graph-background-start) 0%,
+      var(--graph-background-end) 100%
+    ),
+    var(--graph-bg-image, none) center / cover no-repeat;
 }
+
+.graph-view.is-type-linear-gradient {
+  background:
+    linear-gradient(
+      135deg,
+      var(--graph-background-start) 0%,
+      var(--graph-background-end) 100%
+    ),
+    var(--graph-bg-image, none) center / cover no-repeat;
+}
+
+.graph-view.is-type-solid {
+  background:
+    var(--graph-bg-image, none) center / cover no-repeat,
+    var(--graph-background-start);
+}
+
+.graph-view.color-fill,
+.graph-view.color-circle,
+.graph-view.color-line {
+  color: var(--graph-node-color);
+}
+
+.graph-view.color-fill .nodes > circle,
+.graph-view.color-fill .nodes > rect {
+  fill: var(--graph-node-color);
+}
+
+.graph-view.color-fill .nodes > .node:hover > circle,
+.graph-view.color-fill .nodes > .node:hover > rect {
+  fill: var(--graph-node-active-color);
+}
+
+.graph-view.color-tag .nodes > .node:not([data-tag]) > circle,
+.graph-view.color-tag .nodes > .node:not([data-tag]) > rect {
+  fill: var(--graph-node-color);
+}
+
 .graph-view .nodes > circle,
 .graph-view .nodes > rect {
-  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.25));
+  r: var(--graph-node-radius);
+  width: calc(var(--graph-node-radius) * 2);
+  height: calc(var(--graph-node-radius) * 2);
+  stroke: var(--graph-node-color-stroke);
+  stroke-width: var(--graph-node-stroke-width);
+  filter: drop-shadow(0 1px 2px var(--graph-node-shadow-color));
+  transition:
+    r 150ms ease,
+    stroke-width 150ms ease,
+    stroke 150ms ease,
+    filter 150ms ease,
+    opacity 150ms ease;
 }
-.graph-view .nodes > .node.is-active {
-  stroke: var(--interactive-accent);
-  stroke-width: 4px;
+
+.graph-view .nodes > .node:hover > circle,
+.graph-view .nodes > .node:hover > rect {
+  r: calc(var(--graph-node-radius) * var(--graph-node-hover-radius));
+  stroke: var(--graph-node-hover-glow);
+  filter: drop-shadow(0 0 8px var(--graph-node-hover-glow));
 }
+
+.graph-view .nodes > .node.is-active > circle,
+.graph-view .nodes > .node.is-active > rect {
+  stroke: var(--graph-node-active-color);
+  stroke-width: var(--graph-node-active-stroke-width);
+}
+
 .graph-view .nodes > .node.is-faded {
-  opacity: 0.25;
+  opacity: var(--graph-faded-opacity);
 }
 
 .graph-view .links > path {
-  stroke-opacity: 0.55;
-  stroke-linecap: round;
-  transition: stroke-opacity 150ms ease;
-}
-.graph-view .links > .is-highlighted {
+  stroke: var(--graph-line-color);
   stroke-opacity: 1;
-  stroke-width: 2px;
+  stroke-width: var(--graph-edge-stroke-width);
+  stroke-linecap: round;
+  transition: stroke 150ms ease, stroke-width 150ms ease, stroke-opacity 150ms ease;
 }
+
+.graph-view .links > .is-highlighted {
+  stroke: var(--graph-line-active-color);
+  stroke-width: var(--graph-edge-highlighted-width);
+}
+
 .graph-view .links > .is-faded {
-  stroke-opacity: 0.08;
+  stroke-opacity: var(--graph-edge-faded-opacity);
 }
 
 .graph-view .nodes > .node .graph-node-label {
-  fill: var(--text-normal);
-  font-weight: 500;
-  paint-order: stroke;
-  stroke: var(--background-primary);
-  stroke-width: 3px;
+  fill: var(--graph-text-color);
+  font-weight: var(--graph-label-font-weight);
+  font-size: calc(var(--graph-label-font-size) * 1px);
+  paint-order: stroke fill;
+  stroke: var(--graph-text-color-stroke);
+  stroke-width: var(--graph-label-stroke-width);
+  stroke-linejoin: round;
+  pointer-events: none;
 }
 
 .graph-controls {
-  background: var(--background-secondary);
-  border: 1px solid var(--background-modifier-border);
-  border-radius: 8px;
-  backdrop-filter: blur(8px);
+  background: var(--graph-controls-background);
+  border: 1px solid var(--graph-controls-border);
+  border-radius: calc(var(--graph-controls-radius) * 1px);
+  backdrop-filter: blur(calc(var(--graph-controls-blur) * 1px));
+  -webkit-backdrop-filter: blur(calc(var(--graph-controls-blur) * 1px));
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  padding: 8px;
+}
+
+.graph-controls .graph-control-button {
+  background: transparent;
+  color: var(--text-muted);
+  border-radius: 6px;
+  transition: background 120ms ease, color 120ms ease;
+}
+
+.graph-controls .graph-control-button:hover {
+  background: var(--interactive-hover);
+  color: var(--text-normal);
+}
+
+.graph-controls .graph-control-button.is-active {
+  background: var(--interactive-accent);
+  color: var(--text-on-accent);
 }

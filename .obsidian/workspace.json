@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "7abd2c246d4d31ce",
+        "id": "25a0226ac21d9b7a",
         "type": "tabs",
         "children": [
           {
-            "id": "9e57ab5e42efc757",
+            "id": "3eb4fe816c7473a4",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Nova aba"
+              "icon": "lucide-git-fork",
+              "title": "Visualização em gráfico"
             }
           }
         ]
@@ -74,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 380.5
   },
   "right": {
     "id": "f006a67fc4de4608",
@@ -180,9 +180,14 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "e8c61d403f72b663",
+  "active": "3eb4fe816c7473a4",
   "lastOpenFiles": [
+    "Documentação Técnica Código Up/00_SUMÁRIO_E_INDÍCES/00.3_MAPA_INTEGRACAO_CASOS_UP.md",
+    "Documentação Técnica Código Up/00_SUMÁRIO_E_INDÍCES/00.2_GLOSSÁRIO_DE_TERMOS.md",
     "Documentação Técnica Código Up/00_SUMÁRIO_E_INDÍCES/00.1_SUMÁRIO_GERAL.md",
+    "Documentação Técnica Código Up/02_OPERACOES_DIARIAS/02.3_VENDAS_PDV.md",
+    "Sem título.canvas",
+    "Modelo de Template/doc-tecnico.md",
     "AGENTS.md",
     "Documentação Técnica Código Up/02_OPERACOES_DIARIAS/02.1_CADASTRO_PRODUTOS.md",
     "Documentação Técnica Código Up/01_CONFIGURACAO_INICIAL/01.3_CERTIFICADO_DIGITAL.md",
@@ -203,13 +208,8 @@
     "Documentação Técnica Código Up/02_OPERACOES_DIARIAS/02.7_CONTAS_A_RECEBER_COBRANCAS.md",
     "Documentação Técnica Código Up/03_MANUTENCAO_TECNICA/03.11_MOVIMENTACOES_AUXILIARES_ESTOQUE.md",
     "Documentação Técnica Código Up/02_OPERACOES_DIARIAS/02.6_PEDIDO_COMPRA_COTACAO.md",
-    "Sem título.canvas",
     "IMPLEMENTACAO_TECNICA.md",
-    "Modelo de Template/doc-tecnico.md",
     "Modelo de Template",
-    "Pedidos de Venda.md",
-    "Documentação Técnica Código Up/00_SUMÁRIO_E_INDÍCES/00.3_MAPA_INTEGRACAO_CASOS_UP.md",
-    "Documentação Técnica Código Up/03_MANUTENCAO_TECNICA/03.10_RELATORIOS_MOBILE.md",
     "BD.base",
     "03_MANUTENCAO_TECNICA",
     "Documentação Técnica Código Up/ANEXOS",
