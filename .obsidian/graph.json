@@ -6,17 +6,39 @@
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": false,
-  "colorGroups": [],
+  "colorGroups": [
+    {
+      "query": "[\"categoria\":troubleshooting-dicas",
+      "color": {
+        "a": 1,
+        "rgb": 11778303
+      }
+    },
+    {
+      "query": "[\"categoria\":operacoes-diarias",
+      "color": {
+        "a": 1,
+        "rgb": 262399
+      }
+    },
+    {
+      "query": "[\"categoria\":manutencao-tecnica",
+      "color": {
+        "a": 1,
+        "rgb": 1255788
+      }
+    }
+  ],
   "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": -0.4,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 0.656818181818182,
-  "collapse-forces": true,
-  "centerStrength": 0.460227272727273,
-  "repelStrength": 6.47727272727273,
-  "linkStrength": 0.0625,
-  "linkDistance": 236,
-  "scale": 0.22920135941749212,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 0.963068181818182,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": false,
+  "centerStrength": 0.204545454545455,
+  "repelStrength": 5.68181818181818,
+  "linkStrength": 0.897727272727273,
+  "linkDistance": 102,
+  "scale": 0.16348370567219822,
   "close": false
 }
