@@ -4,18 +4,31 @@ setor: Documentação Técnica
 modulo: Documentação Técnica
 categoria: anexos
 tags:
-  - sprint-0
-  - analise
-  - mapeamento-secoes
-  - decisoes-estrutura
+  - integracao
+  - navegacao
+  - nfe
+  - pdv
+navegacao:
+  - "[[00.1_SUMÁRIO_GERAL]]"
+  - "[[00.2_GLOSSÁRIO_DE_TERMOS]]"
+relacionados:
+  - "[[00.1_SUMÁRIO_GERAL]]"
+  - "[[00.3_MAPA_INTEGRACAO_CASOS_UP]]"
 aliases:
-  - DOCUP-ANALISE-SPRINT-0
-  - Análise Sprint 0
-resumo: "Análise do documento monolítico original (Sprint 0) — mapeamento de 59 seções para os 32 arquivos atuais."
+  - DOCUP-ANALISE-ORIGINAL
+  - Análise do Documento Original
+  - Anexo Sprint 0
+  - Histórico de estruturação
+resumo: "Anexo histórico de análise do documento original (Sprint 0) usado na estruturação da documentação técnica."
 data_criacao: 2026-06-24
+data_atualizacao: 2026-07-19
 ---
 
 # Análise do Documento Original — Sprint 0
+
+> **Escopo:** anexo histórico de análise; não substitui os DOCUPs operacionais.
+>
+> **Pré-requisitos:** [[00.1_SUMÁRIO_GERAL]]
 
 > **Documento analisado:** `ProcessandoDocOficialUp/Documentação Técnica Código Up.md`
 > **Total de linhas:** 1.520
@@ -161,3 +174,10 @@ O documento é um manual técnico monolítico do sistema "Up" — um software ER
 ---
 
 *Documento de análise gerado na Sprint 0 — 2026-07-02*
+
+---
+
+## Veja Também
+
+- [[00.1_SUMÁRIO_GERAL]]
+- [[00.3_MAPA_INTEGRACAO_CASOS_UP]]

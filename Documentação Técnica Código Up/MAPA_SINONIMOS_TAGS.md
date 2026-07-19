@@ -1,7 +1,7 @@
 # Mapa de Sinônimos de Tags
 
 > Documento de referência para padronização de tags entre `Documentação Técnica Código Up\` e `Casos Up\Processando\`.
-> Última atualização: 2026-07-05
+> Última atualização: 2026-07-19 (Sprint 6 RAG)
 
 ## Canônicas vs Variantes
 
@@ -63,6 +63,47 @@
 | `boleto` | `boleto-bancario` |
 | `cartao` | `cartao-credito`, `conciliacao-cartao` |
 | `pix` | `PIX` |
+| `restaurante` | `modulo-restaurante`, `food-service` |
+| `mapa-mesas` | `mapa-de-mesas`, `mesas` |
+| `comanda` | `comandas`, `comanda-individual` |
+| `impressao-setor` | `setor-impressao`, `setor-de-impressao` |
+| `kds` | `controle-producao-cozinha`, `kitchen-display` |
+| `hotelaria` | `hotel`, `hospedagem` |
+| `portaria` | `controle-portaria` |
+| `ingressos` | `ingresso`, `controle-ingressos` |
+| `plano-contas` | `plano-de-contas` |
+| `dre` | `DRE`, `demonstrativo-resultado` |
+| `android` | `app-android` |
+| `forca-vendas` | `força-de-vendas`, `forca-de-vendas` |
+| `imendes` | `i-mendes`, `iMendes` |
+| `scanntech` | `scan-tech`, `Scanntech` |
+| `frete` | `taxa-de-entrega`, `configuracao-frete` |
+| `frete-regiao` | `frete-por-regiao` |
+| `delivery` | `entrega-delivery` |
+| `controle-impressoes` | `controle-de-impressoes` |
+| `ativacao` | `ativação`, `ativacao-cliente` |
+| `licenciamento` | `licenca`, `licença` |
+| `demonstracao` | `demo`, `trial` |
+| `self-checkout` | `self-chekout`, `autoatendimento` |
+| `recebimento-futuro` | `nfce-recebimento-futuro` |
+| `issqn` | `ISS`, `iss` |
+| `integracao` | `integração`, `integracoes` |
+| `mobile` | `app-mobile` |
+| `inventario` | `contagem-estoque` |
+| `reserva` | `reservas-hotel` |
+| `checkout` | `check-out`, `check-in-out` |
+| `navegacao` | `indice-navegacao` |
+| `replicacao-dados` | `replicacao`, `sync-pdv` |
+| `ncm` | `NCM` |
+| `cnab` | `CNAB`, `remessa-retorno` |
+| `sefaz` | `SEFAZ` |
+| `danfe` | `DANFE`, `danfce` |
+| `mfe` | `MFE`, `mfe-ce` |
+| `sat` | `SAT`, `cf-e-sat`, `cfe-sat` |
+| `cobranca` | `cobrança`, `cobrancas` |
+| `devolucao` | `devolução`, `devolucoes` |
+| `cashback` | `cash-back` |
+| `desconto` | `descontos`, `desconto-maximo` |
 
 ## Convenção de tags
 
@@ -81,6 +122,8 @@
 
 - **Sprint 3 (2026-07-04):** Construção inicial da tabela com base em auditoria de 32 documentos.
 - **Sprint 4 (2026-07-05):** Ampliação pós-merge dos Aulões (24 módulos). Adicionadas tags de: documentos eletrônicos de transporte (`ct-e`, `ct-e-os`, `mdf-e`, `gnre`), operação de PDV (`pdv-super`, `smart-pos`), automação (`trigger-engine`, `autxml`), manifests e obrigações acessórias (`manifesto-destinatario`, `sped`, `sintegra`), borderôs, infraestrutura (`flutter`, `delphi`, `firebird`, `innosetup`, `white-label`), supply chain (`compras`, `cotacao`, `controle-carga`), financeiro (`bordero-recebimento`, `bordero-negociacao`, `bordero-cobranca`, `caixa`, `cheque`, `boleto`, `cartao`, `pix`, `recebimento`, `pagamento`, `comissao`), operação (`consignado`, `entrega-futura`, `frota`, `almoxarifado`, `inventario`).
+- **Sprint 5 (2026-07-19):** Integração `Casos Up\Processando\` (103 vídeos). Verticais: `restaurante`, `mapa-mesas`, `comanda`, `impressao-setor`, `kds`, `hotelaria`, `portaria`, `ingressos`, `plano-contas`, `dre`, `android`, `forca-vendas`, `imendes`, `scanntech`, `frete`, `frete-regiao`, `delivery`, `controle-impressoes`, `ativacao`, `licenciamento`, `demonstracao`, `self-checkout`, `recebimento-futuro`, `issqn`, `integracao`, `mobile`.
+- **Sprint 6 (2026-07-19):** Enriquecimento RAG do corpus oficial. Tags de operação/suporte: `desconto`, `cashback`, `devolucao`, `cobranca`, `sat`, `mfe`, `danfe`, `sefaz`, `cnab`, `ncm`, `replicacao-dados`, `navegacao`.
 
 ## Auditoria
 
